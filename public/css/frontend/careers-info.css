@@ -1,0 +1,74 @@
+.main-heading-block {
+	height: 450px;
+	background: url("../../img/frontend/careers-info-main.jpg") no-repeat  center bottom / cover;
+}
+.main-black-heading {
+	padding: 30px 0 30px;
+}
+.careers-info-main {
+	max-width: 1040px;
+	font-size: 16px;
+	padding-bottom: 40px;
+
+}
+
+.careers-info-main p.careers-info-heading {
+	margin: 0;
+
+}
+.vacancies {
+	max-width: 1040px;
+}
+.vacancies-wrapper {
+	background: #8aaee0;
+	padding: 60px 0 40px;
+}
+.zero-calc {
+	color: #999;
+}
+.vacancy {
+	background: #fff;
+	padding: 17px 40px 70px;
+	/*margin-bottom: 30px;*/
+	margin: 0 5px 30px;
+}
+.vacancy-heading {
+	font-size: 36px;
+}
+.vacancy-info {
+	margin: 35px 0 45px;
+	font-size: 18px;
+
+}
+.positions {
+	font-size: 18px;
+	margin-bottom: 165px;
+	max-width: 1040px;
+}
+.position {
+	padding: 20px 0;
+	border-bottom: 1px solid #d9d9d9;;
+}
+.btn-apply {
+	font-size: 18px;
+	padding: 5px 21px;
+	border-radius: 0;
+	background: #99cb50;
+	border-color: #99cb50;
+	color: #fff;
+}
+.vacancy-calc {
+	font-size: 18px;
+}
+.positions-table p{ margin: 0;}
+.positions-table thead tr th,
+.positions-table tbody tr td {
+	padding: 7px 10px;
+	vertical-align: middle ;
+}
+.positions-table thead tr th {
+	padding-bottom: 15px;
+}
+.positions-table tbody tr {
+	border-bottom: 1px solid #d9d9d9;
+}

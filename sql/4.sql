@@ -1,0 +1,1 @@
+ALTER TABLE `party` ADD COLUMN `user_type` tinyint(4) DEFAULT '0' COMMENT '0 - old users, 1 - admin, 2 - PM, 3 - Agent' AFTER `version`;

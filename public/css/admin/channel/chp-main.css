@@ -1,0 +1,106 @@
+header.navbar-inverse {background: #6691d9;}
+header .status {background: #88a9e1;}
+header .brand {
+	width: 189px; height: 31px;
+	background: url(../../../img/admin/pm/chp-logo.png);
+}
+/*LEFT SIDEBAR*/
+.main-content .left-sidebar{background-color: #88a9e1;}
+.main-content .left-sidebar .list-group-item {border-bottom: 1px solid #809bca;}
+.main-content .left-sidebar .list-group-item:hover,
+.main-content .left-sidebar .list-group-item:active,
+.main-content .left-sidebar .list-group-item.active {background: #6691d9;}
+.list-group .list-group-item .list-icon{
+	margin: 0 17px 0 5px;
+	width: 24px; height: 24px;
+	background: url(../../../img/admin/pm/channel-sprite.png) 0 0;
+}
+.list-group .list-group-item.dashboard .list-icon {
+	background-position: 0;
+	margin-right: 17px;
+	width: 24px;
+}
+.list-group .list-group-item.notices .list-icon {
+	background-position: -24px 0;
+	width: 20px;
+}
+.list-group .list-group-item.customers .list-icon {
+	margin-right: 16px;
+	margin-left: 3px;
+	width: 28px;
+	background-position: -44px 0;
+}
+.list-group .list-group-item.payment .list-icon {
+	margin-left: 10px;
+	margin-right: 22px;
+	width: 13px;
+	background-position: -72px 0;
+}
+.list-group .list-group-item.account .list-icon {
+	margin: 0 22px 0 10px;
+	width: 14px;
+	background-position: -207px 0;
+}
+.list-group .list-group-item.new-booking .list-icon {
+	margin: 0 18px 0 7px;
+	width: 21px;
+	background-position: -100px 0;
+}
+.list-group .list-group-item.new-booking  {background: #33cc66 ;}
+.list-group .list-group-item.new-booking:hover{background: #28974d;}
+/*TABLE*/
+.right-block .content-block-wrapper .content-block-title h3 {font-weight: 100;}
+.main-content .refering-block {
+	padding: 30px 30px 40px;
+	border-radius: 10px 10px 0 0;
+	margin-top: 20px;
+}
+.main-content .refering-block a {background: #33cc66;}
+/* Statistic table */
+.table.statistic-table td,
+.table.statistic-table th {
+	color: #a6a6a6;
+	font-size: 16px;
+	font-weight: 100;
+}
+.table.statistic-table tr:first-child td{border-top: 0}
+.table.statistic-table th:last-child,
+.table.statistic-table td:last-child{
+	padding-right: 30px;
+	text-align: right;
+}
+/*FILTER*/
+.right-block .functional-block {
+	background: #fff;
+	color: #a6a6a6;
+}
+.btn.btn-submit {
+	background: #33cc66;
+	border-color: #33cc66;
+}
+input.form-control{
+	box-shadow: none;
+	background: #eee;
+	border: 0;
+}
+input.form-control.hasDatepicker {
+	border: 1px solid #e4e4e4;
+}
+.toggle-hide-filter,
+.toggle-hide-filter:focus,
+.toggle-hide-filter:active,
+.toggle-hide-filter:hover{color: #a6a6a6;}
+@media (max-width: 991px) {
+	.refering-footer span{
+		width: 15px;
+		height: 15px;
+	}
+	.refering-footer p,
+	.book-btn.btn,
+	.table.statistic-table td{font-size: 12px;}
+	.status-btn.btn{
+		font-size: 12px;
+		width: 120px;
+	}
+
+}

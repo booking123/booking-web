@@ -1,0 +1,71 @@
+body {
+	font-family: "Nunito-Light", sans-serif;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	border: 0;
+}
+
+
+a {
+	display: block;
+	text-align: center;
+	}
+.brand {
+	margin: 49px auto 49px;
+	max-width: 230px;
+	text-align: center;
+}
+.browser {
+	position: relative;
+	min-height: 1px;
+	display: inline-block;
+	width: 25%;
+	margin-top: 20px;
+	float: left;
+}
+.content {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f3f4f5;
+	padding-bottom: 240px;
+	float:left;
+	width: 100%;
+}
+.browsers {
+	max-width: 940px;
+	text-align: center;
+	margin: 0 auto;
+}
+.browsers-heading {
+	font-size: 30px;
+	color: #10446c;
+	margin-top: 70px;
+	font-weight: 100;
+}
+.browsers p {
+	font-size: 18px;
+	color: #919ca4;
+	margin-bottom: 85px;
+}
+.logo {margin: 0 auto 28px;}
+.logo-title span {
+	width: 8px;
+	height: 12px;
+	background: url('../../img/frontend/browsers/caret.png') no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+a.logo-title:hover,
+a.logo-title {
+	font-size: 18px;
+	color: #59aad0;
+	text-decoration: none;
+}
+@media screen and (max-width: 991px) {.browser {width: 50%;}}
+@media screen and (max-width: 768px) {.browser {width: 100%;}}
+
+

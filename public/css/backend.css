@@ -1,0 +1,98 @@
+#head-nav {
+	height: 85px; padding: 0 30px;
+	background: #00395f;
+	color: #FFF;
+}
+
+.navbar-brand {
+	position: absolute; display: inline-block; top: 13px; width: 299px; height: 64px;
+	background: url(../img/logo_backend.png);
+	text-decoration: none;
+}
+
+#main_menu {
+	margin-left: 310px
+}
+
+.admin-title {
+	float: left;
+	margin: 30px 0 0 160px;
+	font-size: 28px;
+	font-weight: normal;
+	color: #8AC43F;
+}
+
+.admin-user-panel {
+	text-align: right;
+	padding: 25px 0 0;
+}
+
+.admin-user-panel p {
+	margin: 0;
+}
+
+.admin-user-panel .green { color: #9acb50; }
+
+#wrap { padding: 0 30px; }
+
+#wrap > .container-fluid:first-child { padding-top: 85px; }
+
+#main_menu .nav.navbar-nav { margin-top: 30px; }
+#main_menu .dropdown-toggle { color: #fff }
+#main_menu .dropdown-menu { background: #00395f; }
+#main_menu .dropdown-menu a { color: #fff; }
+#main_menu .dropdown-menu a:hover { color: #000; }
+#main_menu .dropdown.open .dropdown-toggle { background: inherit; }
+#main_menu .list-group-item {
+	border: none;
+	background: inherit;
+	color: #fff;
+}
+
+
+/* ----------- Report css ----------- */
+.report-box {}
+
+.report-box .report-form { margin: 10px 0 0; }
+.report-box .report-form .submit-row label{ display: block; }
+
+.report-box .report-form .form-control.hasDatepicker {
+	display: block; width: 125px;
+	background: url(../img/schedule.png) right center no-repeat;
+}
+.ui-widget-content{ width: 237px; }
+.ui-widget-content .ui-state-disabled span{ background: #ccc; }
+
+
+.report-box .report-form .form-control.inputId{ display: block; width: 125px; }
+.report-box .report-form.form-inline select.form-control { width: 100%; }
+
+.report-box .pagination { margin: 0; }
+.report-box .pagination .disabled { color: #ccc; cursor: default; }
+.report-box .pagination .disabled:hover { color: #ccc; text-decoration: none; cursor: default; }
+
+.report-box .table { font-size: 12px; }
+.report-box .table .action_button{ margin: 2px 0; }
+.report-box .table thead th { white-space: nowrap; }
+.report-box .table a.asc,
+.report-box .table a.desc { position: relative; }
+.report-box .table a.asc:after {
+	position: absolute; right: -15px;
+	font-size: 10px;
+	content: "▲";
+	content: "&030;";
+}
+.report-box .table a.desc:after {
+	position: absolute; right: -15px;
+	font-size: 10px;
+	content: "▼";
+	content: "&031;";
+}
+
+.report-box .table a.disabled{
+	color: grey;
+	cursor: text;
+}
+.report-box .table a.disabled:hover{
+	text-decoration: none;
+}

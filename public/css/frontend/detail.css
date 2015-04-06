@@ -1,0 +1,604 @@
+.detail-result .container {max-width: 1010px;}
+.detail-result .result-back-link  {
+    float: right;
+    color: #10446c;
+    margin-bottom: 22px;
+    margin-top: 32px;
+    font-weight: normal;
+}
+.detail-result .result-button-link {display: none}
+.detail-result  h4 {
+    color: #000;
+    margin-top: 24px;
+    margin-bottom: 0;
+    clear: both;
+}
+.detail-result .result-block-style h4 {
+
+	margin-top: 0;
+	margin-bottom: 24px;
+
+}
+.detail-result h5 {
+    /*margin: 0 0 0 25px;*/
+    color: #3b4042;
+}
+.detail-result .shadow-header {
+    width: 100%;
+    height: 6px;
+    background: url('../../img/frontend/details/header_shadow.png') repeat-x;
+}
+.detail-result .navbar-default .navbar-nav li a {
+    color: #000;
+    font-weight: normal;
+    padding: 16px 0 9px;
+    margin: 0 15px;
+}
+.detail-result .navbar-default .navbar-nav li a:active,
+.detail-result .navbar-default .navbar-nav li a:hover{border-bottom: 2px solid #003b5d ;}
+.detail-result .navbar {
+    min-height: 49px;
+    margin-bottom: 10px;
+}
+
+.detail-result .result-book-panel h2 {
+    color: #75b117;
+    float: left;
+    margin: 0;
+    min-height: 44px; line-height: 44px;
+}
+.detail-result .error{
+    font-size: 12px; color: #F00; font-weight: bold;
+    min-height: 44px; line-height: 44px;
+}
+.detail-result .result-book-panel-price-head a {
+    float: right;
+    color: #8e8e8e;
+    font-size: 36px;
+    text-decoration: none;
+}
+.detail-result .result-book-panel-price-bottom {
+    clear: both;
+    padding: 20px 0;
+    border-bottom: 1px solid #d2d2d2;
+}
+.detail-result .result-book-panel-price-bottom a {color: #10446c;}
+.detail-result .result-book-panel-dates-head {padding-top: 20px;}
+.detail-result .result-book-panel-dates-head span{color: #75b117;}
+.detail-result .result-book-panel-price input[type=text] {
+    border-radius: 3px;
+    color: #919ca4 ;
+    background: url("../../img/frontend/search/icon-calendar-new.png") no-repeat 90px 50%;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.secure-payment-title .text-center{padding-top: 10px;}
+.secure-payment-title .text-center img{margin: 0px 3px;}
+.detail-result .result-book-panel-button a {
+    width: 100%;
+    background: #75b117;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 8px 0;
+}
+.detail-result .result-info  td {
+    border-top: none;
+    padding: 8px 8px 4px 17px;
+    font-weight: normal;
+}
+.detail-result .result-info  tr:nth-child(odd) td {background: #f3f4f5;}
+.detail-result .result-info  td:nth-child(even) {color: #000;}
+.detail-result .result-info {
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding: 7px 0 10px 0;
+    margin-bottom: 20px;
+}
+.detail-result .result-info table {margin: 0;}
+.detail-result .result-amenities  {color: #959fa7;}
+.detail-result  .result-left-column-rates .detail-heading  {
+	padding: 20px 0 0 20px;
+    margin: 0 0 10px;
+}
+.detail-result  .result-left-column-rates  .heading_row td {
+	padding: 0 0 10px 20px;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: center;
+}
+.detail-result  .result-left-column-rates .data_row td {
+	padding: 10px 0 10px 20px;
+	text-align: center;
+}
+
+.detail-result  .result-left-column-rates .data_row td:first-child,
+.detail-result  .result-left-column-rates  .heading_row td:first-child{
+
+	text-align: left;
+}
+.detail-result  .result-left-column-rates .data_row:nth-child(even)  {
+	background: #f3f4f5;
+}
+.detail-result .result-amenities ul{padding-left: 10px ;}
+.detail-result .result-amenities li{
+    padding-left: 5px ;
+    padding-bottom: 5px;
+}
+.detail-result  .result-cancelation {
+	font-size: 12px;
+}
+.detail-result .result-cancelation .space{
+    height: 10px ;
+    width: 100%;
+}
+.detail-result .show-full-block,
+.detail-result .hide-full-block{
+    color:#10446c;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.detail-result .detail-link {
+    color: #10446c;
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.detail-result .result-left-column .images-block img {
+    /*float: left;*/
+    cursor: pointer;
+}
+.detail-result .result-navbar .navbar {background: #f4f5f6;}
+.detail-result .images-block {margin-top: 10px;}
+.detail-result .result-left-column-overview {margin-top: 20px;}
+
+.result-left-column-rates table{width: 100%;}
+
+.result-left-column-map img {max-width: 100%;}
+.detail-result .result-block-style {
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+	position: relative;
+}
+
+
+
+.detail-result .result-block-style .content{
+	/*-webkit-box-shadow: inset -2px -15px 19px -7px rgba(255,255,255,1);*/
+	/*-moz-box-shadow: inset -2px -15px 19px -7px rgba(255,255,255,1);*/
+	/*box-shadow: inset -2px -15px 19px -7px rgba(255,255,255,1);*/
+}
+.detail-result .result-block-style .content .product-map{
+	width: 100%; height: 314px;
+	border: 1px solid #d3d9dd;
+}
+
+.detail-result .result-block-style .content ul{ padding-left: 18px }
+.detail-result .result-block-style .content ul li{padding-bottom: 10px;}
+.detail-result .result-left-column .result-left-column-slider .glyphicon-heart { display:none }
+.detail-result .result-left-column .result-left-column-slider-mobile {display: none;}
+.detail-result .result-left-column .large-img {
+    height: 475px;
+    max-width: 100%;
+
+
+}
+.detail-result .result-left-column .large-img .slick-slide {
+	height: 475px;
+}
+.detail-result .result-left-column .images-block .slick-slide,
+.detail-result .result-left-column .large-img .slick-slide {
+	text-align: center;
+}
+.detail-result .result-left-column .images-block .slick-slide,
+.detail-result .result-left-column .images-block {
+    height: 114px;
+}
+.detail-result .result-left-column .images-block .slick-slide img  {
+    max-height: 114px;
+	width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.detail-result .result-left-column .slick-slide .line-up {
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+}
+.detail-result .result-left-column .large-img img {
+    max-height: 475px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.search-panel .calendar .dp-applied h2,
+.calendar .dp-stay h2 {
+	background: #2ea2eb;
+}
+.overview-read-more {
+	display: block;
+	color: #10446c;
+	text-align: right;
+}
+.overview-read-more:focus,
+.overview-read-more:hover {
+	color: #10446c;
+}
+.overview-list {
+	max-height: 300px;
+	overflow-y: hidden;
+	overflow-x: visible;
+
+}
+.transparent-block {
+	width: 94%;
+	height: 20px;
+	background-image:         linear-gradient(top, transparent, #fff);
+	background-image: -webkit-linear-gradient(top, transparent, #fff);
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1.0) 90%);
+	background-image:     -ms-linear-gradient(top, transparent, #fff);
+	background-image:      -o-linear-gradient(top, transparent, #fff);
+	position: absolute;
+	bottom: 45px;
+}
+.result-left-column-overview.result-block-style .content.list {
+
+}
+.overview-read-more .less,
+.overview-read-more.open .more {
+	display: none;
+}
+.overview-read-more.open .less {
+	display: inline;
+}
+.overview-list.open {
+	max-height: none;
+	overflow-y: visible;
+}
+@media (max-width: 1200px) {
+    .detail-result .result-book-panel-price .input-group {width: 100%;}
+    .detail-result .result-book-panel-price input[type=text] {background-position:  95% 50%;}
+	.detail-result .result-left-column .large-img .slick-slide,
+    .detail-result .result-left-column .large-img {height: 457px}
+    .detail-result .result-left-column .large-img img {max-height: 457px}
+	.detail-result .result-left-column .images-block .slick-slide,
+    .detail-result .result-left-column .images-block {height: 110px;}
+    .detail-result .result-left-column .images-block .slick-slide img  {max-height: 110px;}
+}
+
+@media (max-width: 991px) {
+    .detail-result .result-info,
+    .detail-result .result-book-panel {border: none}
+    .detail-result .result-info  table{margin: 20px 0;}
+    .detail-result .result-book-panel-price input[type=text] {background-position:  97% 50%;}
+}
+@media (max-width: 768px) {
+    .detail-result .result-navbar{display: none}
+	.detail-result .result-left-column .large-img .slick-slide,
+    .detail-result .result-left-column .large-img {height: 277px}
+    .detail-result .result-left-column .large-img img {max-height: 277px}
+    .detail-result .result-left-column .images-block {display: none}
+    .detail-result .result-left-column .result-left-column-slider-mobile {display: none;}
+    .detail-result .result-left-column .result-left-column-slider .glyphicon-heart {
+        font-size: 36px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1111;
+        text-decoration: none;
+        text-shadow: white 1px 1px 0, white -1px -1px 0,
+        white -1px 1px 0, white 1px -1px 0;
+        display: block;
+
+	}
+    .detail-result .result-back-link {display: none;}
+    .detail-result .result-button-link {
+        float: right;
+        color: #003b5d;
+        margin-bottom: 20px;
+        margin-top: 18px;
+        display: block;
+        font-weight: bold;
+        padding: 7px 14px 5px 14px;
+        border-radius: 3px;
+        border: 1px solid #bdc3c8;
+    }
+
+	.detail-result .result-block-style .content .product-map{
+		height: 185px;
+	}
+}
+.result-left-column-rates {
+	padding: 0 !important;
+}
+
+
+.blocked{
+	opacity: 0.1;
+}
+
+.availability{
+
+}
+
+.availability h4{
+	float: left;
+}
+.availability-history{
+	float: right;
+	list-style: none;
+}
+.availability-history li{
+	float: left;
+	margin: 5px 10px 0;
+}
+.availability-history li span{
+	display: inline-block;
+	width: 10px; height: 10px;
+
+}
+.availability-history li.booked span{
+	background: #a8d85d;
+}
+.availability-history li.closed span{
+	background: #e78f8f;
+}
+
+.call {
+	color: #2d3036;
+}
+.call .dp-applied{
+	float: left;
+}
+.call .dp-applied:first-child{
+	margin-right: 60px;
+}
+.call .dp-applied h2{
+	background: #b8c1c8	;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	height: 48px;
+	line-height: 48px;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Nunito", sans-serif;
+}
+.call .dp-applied div.dp-popup{
+	background: none;
+	width: auto;
+}
+.call .dp-applied div.dp-popup  table tr td:first-child,
+.call .dp-applied div.dp-popup  table tr th:first-child{
+	padding-left:8px !important;
+}
+.call .dp-applied div.dp-popup table tr td:last-child,
+.call .dp-applied div.dp-popup table tr th:last-child{
+	padding-right:8px !important;
+}
+.call .dp-applied div.dp-popup table tr:last-child td{
+	padding-bottom:8px;
+}
+.calendar  table tr td:first-child,
+.calendar  table tr th:first-child{
+	padding-left:8px !important;
+}
+.calendar table tr td:last-child,
+.calendar table tr th:last-child{
+	padding-right:8px !important;
+}
+.calendar table tr:last-child td{
+	padding-bottom:8px;
+}
+
+
+.call .dp-applied div.dp-popup .dp-nav-next{
+	/*height: 40px;*/
+}
+.call .dp-applied div.dp-popup .dp-nav-prev-month,
+.call .dp-applied div.dp-popup .dp-nav-next-month{
+	display: block;
+	width: 10px; height: 18px;
+	background: url("../../scripts/inc/datepicker/images/icons-split-arow.png") no-repeat left center;
+	font-size: 0;
+	margin: 15px 13px 0;
+}
+.call .dp-applied div.dp-popup .dp-nav-prev-month.disabled,
+.call .dp-applied div.dp-popup .dp-nav-next-month.disabled{
+	opacity: 0.2;
+}
+.call .dp-applied div.dp-popup .dp-nav-prev-month{
+	background-position: left center;
+}
+.call .dp-applied div.dp-popup .dp-nav-next-month{
+	background-position: right center;
+}
+
+.call .dp-applied table.jCalendar{
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	background: none;
+}
+.call .dp-applied table.jCalendar th{
+	padding: 0;
+	height: 40px;
+	border: none;/*1px solid #f3f4f5;*/
+	background: #f3f4f5;
+	font-weight: 500; font-size: 12px; line-height: 40px;
+	text-align: center;
+	color: #504747;
+	font-family: "Nunito", sans-serif;
+}
+.call .dp-applied table.jCalendar td{
+	padding: 7px 0;
+	background: none;
+	width: 35px; height: 21px;
+	border: none;/*border: 1px solid #d4d5d6;*/
+	font-size: 13px;
+	cursor: default;
+	color: #fff;
+}
+.call .dp-applied table.jCalendar td span{
+	position: relative;
+	display: block;
+	width: 100%; height: 21px;
+	background: #ef8080;
+	line-height: 21px;
+	color: #fff;
+}
+.call .dp-applied table.jCalendar td span i{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 60%;
+
+}
+.call .dp-applied table.jCalendar td span b{
+	position: relative; z-index: 1;
+	font-weight: 600;
+
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: pointer;
+}
+
+.call .dp-applied table.jCalendar td:hover{
+	/*background: none;*/
+}
+.call .dp-applied table.jCalendar td.disabled,
+.call .dp-applied table.jCalendar td.other-month{
+	opacity: 0.5;
+}
+
+.call .dp-applied table.jCalendar td.other-month,
+.call .dp-applied table.jCalendar td.disabled,
+.call .dp-applied table.jCalendar td.saturday{
+	color: #fff;
+}
+
+
+.call .dp-applied table.jCalendar td.opened span{
+	background: none;
+	color: #504747;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+.call .dp-applied table.jCalendar td.opened.disabled,
+.call .dp-applied table.jCalendar td.opened.other-month{
+	color: #959fa7;
+}
+
+
+.call .dp-applied table.jCalendar td.opened.saturday span{
+	color: #ff933c;
+	font-weight: bold;
+}
+
+.call .dp-applied table.jCalendar td.today span{
+	/*background: none;*/
+	color: #10446c;
+	font-weight: bold;
+}
+
+.call .dp-applied table.jCalendar td.booked span{
+	background: red;
+	/*repeating-linear-gradient(*/
+			/*-45deg,*/
+			/*#a8d85d,*/
+			/*#a8d85d 5px,*/
+			/*#e78f8f 5px,*/
+			/*#e78f8f 10px*/
+	/*);*/
+}
+.call .dp-applied table.jCalendar td.opened.booked span{
+	background: #75b117;
+	color: #fff;
+}
+
+.call .dp-applied table.jCalendar td.opened.end span{
+	/*background: #ef8080;*/
+}
+.call .dp-applied table.jCalendar td.opened.start span{
+	/*background: #ef8080;*/
+}
+.call .dp-applied table.jCalendar td.opened.start span i{
+	border-bottom: 21px solid #ef8080;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+.call .dp-applied table.jCalendar td.opened.end span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid #ef8080;
+	right: 0;
+}
+
+.call .dp-applied table.jCalendar td.opened.booked.start span,
+.call .dp-applied table.jCalendar td.opened.booked.end span{
+	color: #504747;
+}
+.call .dp-applied table.jCalendar td.opened.booked.start span i{
+	border-bottom: 21px solid #fff;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+.call .dp-applied table.jCalendar td.opened.booked.end span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid #fff;
+	right: 0;
+}
+
+.call .dp-applied table.jCalendar td.opened.closed.start span i{
+	border-bottom: 21px solid #ef8080;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+.call .dp-applied table.jCalendar td.opened.closed.end span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid #ef8080;
+	right: 0;
+}
+
+
+.call .dp-applied table.jCalendar td.error_booked_start span{
+	background: #fff;
+}
+.call .dp-applied table.jCalendar td.error_booked_finish span{
+	background: #fff;
+}
+
+.call .dp-applied table.jCalendar td.error_booked_finish span,
+.call .dp-applied table.jCalendar td.error_booked_start span{
+	color: #504747;
+}
+
+
+.call .dp-applied table.jCalendar td.error_booked_start span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid red;
+	right: 0;
+}
+
+.call .dp-applied table.jCalendar td.error_booked_finish span i{
+	border-bottom: 21px solid red;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+
+.call .dp-applied table.jCalendar td.opened.closed.start.error_booked span i{
+	border-bottom: 21px solid red;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+
+.call .dp-applied table.jCalendar td.opened.closed.end.error_booked span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid red;
+	right: 0;
+}
+
+.call .dp-applied table.jCalendar td.opened.booked.start.error_booked span,
+.call .dp-applied table.jCalendar td.opened.booked.end.error_booked span{
+	color: #fff;
+}

@@ -1,0 +1,605 @@
+body{background: #f7f7f7;}
+img {max-width: 100%}
+.navigation-box{
+	position: fixed;
+	bottom: 0;
+	height: 115px;
+	padding: 25px 25px 0;
+	background: #fff;
+}
+.list-group .list-group-item .list-icon{background: url(../../../img/admin/pm/sprites_dark_grey.png) 0 0;}
+.sb-big.right {margin-left: 20px;}
+.main-content .left-sidebar{background: #ececec;}
+.advertising-wrapper {margin: 120px 0 0;}
+.main-content .left-sidebar .list-group-item,
+.main-content .left-sidebar .list-group-item:hover,
+.main-content .left-sidebar .list-group-item:active,
+.main-content .left-sidebar .list-group-item.active{
+	background: none;
+	border-color: #ddd;
+	color: #b5b5b5;
+	cursor: default;
+}
+.registration .breadcrumb {
+	margin: 0; padding: 20px 0 16px;
+	background: #fff;
+	font-size: 16px; color: #333333;
+}
+.registration .breadcrumb li {position: relative;}
+.registration .breadcrumb > li + li:before {
+	display: inline-block;
+	content: '';
+	width: 9px; height: 14px;
+	margin-left: 15px; margin-right: 20px;
+	background: url('../../../img/admin/pm/registration/icons/right_arrow.png') no-repeat center;
+}
+.registration .breadcrumb li a { color: #333; cursor: text; }
+.registration .breadcrumb li a:hover{ text-decoration: none; }
+.registration .breadcrumb li.active a,
+.registration .breadcrumb li.current span { color: #33cc66; }
+.registration .breadcrumb li.active a:hover{ text-decoration: underline; cursor: pointer; }
+.registration .breadcrumb li.current:after {
+	content: ''; z-index: 10;
+	width: 16px; height: 16px;
+	position: absolute; left: 50%; bottom: -25px; margin-left: -8px;
+	border: 4px solid #fff; border-radius: 8px;
+	background: #33cb65; background-clip: padding-box;
+}
+.registration .breadcrumb > li + li.current:after { margin-left: 18px; }
+.navigation-box{
+	position: fixed;
+	bottom: 0;
+	height: 115px;
+	padding: 25px 25px 0;
+	background: rgba(256,256,256,0.7);
+}
+@media (max-width: 768px) {
+	.navigation-box{
+		position: relative;
+		bottom: auto;
+	}
+}
+.btn.btn-lg{
+	border-radius: 3px;
+	font-size: 22px;
+	padding: 15px 23px;
+}
+.btn.btn-lg .arrow{
+	display: inline-block; width: 10px; height: 17px;
+	background: url('../../../img/admin/pm/registration/icons/arrow-next-back.png') no-repeat left center;
+}
+.btn.btn-back{
+	padding-right: 30px;
+	background-color: #ededed; border-color: #ededed;
+	color: #656565;
+}
+.btn.btn-back .arrow{
+	margin-right: 16px;
+	background-position: left center;
+}
+.btn.btn-next{
+	padding-left: 30px;
+	background-color: #33cb65; border-color: #33cb65;
+	color: #fff;
+}
+.btn.btn-next .arrow{
+	margin-left: 16px;
+	background-position: right center;
+}
+/* Global Steps */
+.steps{ padding-bottom: 135px; }
+.steps h1.step-title{
+	padding: 42px 0 50px;
+	margin: 0;
+	font-size: 24px;
+	line-height: 1.2;
+	text-align: center;
+}
+.steps .step-title-info{
+	padding: 8px 0 0;margin: 0;
+	line-height: 1.2; text-align: center;
+}
+.steps h3.step-title-info{ font-size: 18px; }
+.steps h4.step-title-info{ font-size: 16px; }
+/*!! STEP 1 !!--------------------------------------------- */
+.step1 .search-box p {
+	padding: 4px 20px 4px 10px;
+	background: #efefef;
+	margin: 5px 5px 5px 0;
+	float: left;
+	font-size: 16px;
+	font-weight: 100;
+}
+.step1 .slide-buttons .percent-arrow {
+	padding: 10px 0;
+	display: inline-block;
+	border: 2px solid #33cc66;
+	float: left;
+	text-decoration: none;
+	font-size: 16px;
+	width: 50%;
+}
+.step1  .slide-buttons .percent-arrow.right.active,
+.step1  .slide-buttons .percent-arrow.left.active{
+	background: #33cc66;
+	color: #fff;
+}
+.step1 .slide-buttons .percent-arrow.left {
+	border-radius: 20px 0 0 20px;
+	color: #333333;
+	background: #FFF;
+}
+.step1  .slide-buttons .percent-arrow.right {
+	border-radius: 0 20px 20px 0;
+	color: #333333;
+	background: #FFF;
+}
+.step1 .slide-buttons {
+	max-width: 380px;
+	margin: 0 auto 95px;
+	text-align: center;
+}
+/*!! STEP 1-2 !!--------------------------------------------- */
+.step1-2 .disabled .select-box.selected  .price,
+.step1-2 .disabled .select-box:hover .price {color: #000 ;}
+.step1-2 .disabled .select-box.selected span,
+.step1-2 .disabled .select-box:hover span {color: #999 ;}
+.step1-2 .disabled .select-box:hover .glyphicon-ok {color: #33cb65;}
+.step1-2 .disabled  .select-box  h2,
+.step1-2 .disabled  .select-box span{color: #eaeaea ;}
+.step1-2 .disabled  .select-box  a,
+.step1-2 .disabled  .select-box a:hover{
+	color: #eaeaea ;
+	cursor: default ;
+	text-decoration: none ;
+}
+.step1-2 .disabled  .select-box  button{
+	border-color: #eaeaea ;
+	background: #eaeaea ;
+	color: #fff ;
+	cursor: default ;
+}
+.step1-2 .disabled  .select-box.selected a:hover,
+.step1-2 .disabled  .select-box.selected a,
+.step1-2 .disabled  .select-box:hover a{
+	color: #59bdcd;
+	text-decoration: none ;
+}
+.step1-2 .select-box {margin: 0 auto 20px;}
+.step1-2 .select-box .btn {
+	width: 100%;
+	font-size: 18px;
+}
+.step1-2 .select-box .price {margin-top: 5px;}
+.step1-2 .select-box .separate-line {margin: 19px 0 8px;}
+.step1-2 .select-box.sb-small {height: 250px;}
+.step1-2  h1.step-title {padding: 33px 0 30px;}
+
+/*!! STEP 1-3 !!--------------------------------------------- */
+
+.step1-3 .select-box.sb-big {margin: 30px auto 20px;}
+.step1-3 h1.step-title {padding: 42px 0 5px;}
+.step1-3 h4.step-title-info {
+	font-size: 14px;
+	font-weight: 100;
+	padding: 12px 0 0;
+}
+.step1-3 .no-thanks-info {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.step1-3 .select-box .separate-line {margin: 16px 0 10px;}
+.step1-3 .select-box .select-box-content {
+	line-height: 1.5;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 0 0 10px;
+}
+.step1-3  .recommended {
+	color: #33cc66;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 0;
+}
+.step1-3  .recommended.dot {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+/*!! STEP 2 !!--------------------------------------------- */
+
+.step2 h1.step-title {padding: 26px 0 26px;}
+.step2 .select-box.selected .box-select-btn .btn.btn-success .glyphicon-ok {
+	top: 8px;
+	font-size: 13px;
+}
+.step2 .select-box.sb-small .box-select-btn .btn{
+	font-size: 14px;
+	position: relative;
+	width: 115px;
+}
+.step2 .select-box.sb-small {
+	margin: 0 auto 16px;
+	padding-top: 15px;
+	width: 206px;
+	height: 175px;
+}
+.step2 .channel-percent {
+	color: #999999;
+	font-size: 14px;
+}
+.step2 .ch-more {
+	font-size: 12px;
+	color: #33cc66;
+	text-decoration: none;
+}
+.step2 .ch-more span {
+	display: inline-block;
+	width: 13px;
+	height: 10px;
+	background: url('../../../img/admin/pm/registration/icons/green-arrow.png');
+	margin-left: 5px;
+}
+.step2 .ch-logo {
+	margin-bottom: 10px;
+	display: block;
+}
+.step2 .ch-logo img {height: 25px;}
+.step2 .partners-block {
+	text-align: center;
+	background: #747986;
+	margin-bottom: 16px;
+	border-right: 1px solid #8a8e98;
+}
+.step2 .partners-block p {
+	margin: 5px 0 5px;
+	color: #fff;
+	font-weight: 100;
+}
+.step2 .select-box.sb-small .separate-line{ margin: 6px 0 10px; }
+.select-box.selected .box-select-btn .btn.btn-success{
+	border-color: #e7e7e7;
+	background: #e7e7e7;
+	color: #666;
+	padding: 5px 20px 5px 40px;
+}
+
+
+/*!! STEP3 !!--------------------------------------------- */
+
+.step1-3 .select-box .btn,
+.step3 .select-box .btn {width: 100%;}
+.step1-3 .select-box.selected .box-select-btn .btn.btn-success .glyphicon-ok,
+.step3 .select-box.selected .box-select-btn .btn.btn-success .glyphicon-ok {
+	top: 8px;
+	font-size: 13px;
+}
+.step3 .select-box.sb-small {
+	margin: 45px auto 0;
+	width: 150px;
+	height: 125px;
+	padding-top: 5px;
+}
+.step3 .payment-name h2 {
+	font-size: 24px;
+	margin: 5px 0 0 0;
+}
+.step3 .select-box.sb-small .count-channels  {
+	font-size: 16px;
+	color: #333333;
+}
+.step3 .select-box .separate-line {margin: 17px 0 9px;}
+.step3  h1.step-title {padding: 42px 0 20px;}
+.step3  h4.step-title-info {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+@media (min-width: 992px) {
+	.step3 .channel-percent-list .col-md-2 {
+		width: 20%;
+	}
+}
+@media (min-width: 992px) {
+	.payment-getaway {
+		width: 560px;
+	}
+}
+.step3 .payment-getaway .select-box.sb-small {
+
+	padding-top: 10px;
+}
+/*!! STEP4 !!--------------------------------------------- */
+
+.step4 .agreements{
+	max-width: 660px;
+	padding: 0;
+}
+.step4 .agreements-content {
+	height: 290px;
+	overflow-y: auto;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	padding: 0 15px;
+}
+.step4 .agreements-content h2 {
+	font-size: 20px;
+	margin: 16px 0;
+}
+.step4 .agreements-content p {
+	font-size: 14px;
+	color: #999999;
+	font-weight: 100;
+}
+.step4 .agreements input {
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: 100;
+	margin-bottom: 24px;
+}
+.step4 h1.step-title {
+	font-size: 26px;
+	padding: 40px 0 20px 0;
+}
+.step4 h4.step-title-info {
+	font-size: 14px;
+	margin-bottom: 30px;
+	font-weight: 100;
+}
+
+/*!! STEP5 !!--------------------------------------------- */
+
+.step5 .registration-result {
+	max-width: 760px;
+	margin: 35px auto 25px;
+}
+.step5 .select-box.sb-small {
+	margin:  0 auto 16px ;
+	width: 220px;
+	height: 140px;
+}
+.step5 .select-box-title h2 {
+	font-size: 30px;
+	margin: 0;
+}
+.step5 .select-box-title span {font-size: 14px;}
+.step5 .desc {
+	color: #999999;
+	font-size: 12px;
+	margin-top: 10px;
+	font-weight: 100;
+}
+.step5 h4.step-title-info {
+	font-size: 14px;
+	font-weight: 100;
+}
+.step5 h1.step-title {
+	padding: 42px 0 20px;
+	margin: 0;
+	font-size: 26px;
+	line-height: 1.2;
+	text-align: center;
+}
+.step5 .invitation-block {
+	max-width: 580px;
+	position: relative;
+}
+.step5 .invitation-block input {
+	margin: 5px 0;
+	height: 30px;
+	border: 0;
+	float: left;
+}
+.step5 .send-invitation {
+	background: #fff;
+	position: relative;
+	float: left;
+	padding: 0 5px;
+	border: 1px solid #ebebeb;
+}
+.step5 .invitation-block button {
+	width: 100%;
+	height: 40px;
+	background: #33cc66;
+	font-size: 16px;
+	border: 0;
+}
+.step5 .invitation-block p {
+	padding: 4px 20px 4px 10px;
+	background: #efefef;
+	margin: 5px 5px 5px 0;
+	float: left;
+	font-size: 16px;
+	font-weight: 100;
+}
+.step5 .invitation-block p span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url('../../../img/admin/pm/registration/icons/close-icon.png') no-repeat;
+	position: relative;
+	top: 2px;
+	left: 10px;
+	padding: 0;
+}
+.step5 .invitation-heading {
+	margin: 40px 0 25px;
+	font-weight: 100;
+}
+
+/* select-boxes all design  */
+
+.select-box{
+	position: relative; padding: 0 16px;
+	border: 3px solid #ebebeb; border-radius: 6px;
+	background: #fff; box-shadow: 0 0 18px rgba(0,0,0,.08); background-clip: padding-box;
+	text-align: center;
+}
+.select-box .separate-line{
+	position: relative; margin: 17px 0;
+	border-top: 1px solid #eaeaea;
+}
+.select-box .select-box-content{
+	line-height: 1.3; color: #999;
+	margin: 0 0 25px;
+}
+.select-box .box-select-btn{
+	position: absolute; bottom: 20px; left: 20px; right: 20px;
+}
+.step1-2 .disabled .select-box:hover  button,
+.select-box .btn{
+	border-color: #33cb65;
+	background: #33cb65;
+}
+.select-box.selected,
+.select-box:hover,
+.select-box.disabled:hover{
+	border-color: #33cb65;
+	box-shadow: 0 0 18px rgba(51,204,102,.08);
+}
+.select-box .box-select-btn .btn.btn-success .glyphicon-ok {
+	color: #33cb65;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	font-size: 16px;
+	display: none;
+}
+.select-box.selected .box-select-btn .btn.btn-success .glyphicon-ok{display: block;}
+/* 		select-boxes big */
+.select-box.sb-big {
+	width: 225px;
+	height: 340px;
+	font-size: 12px;
+}
+.select-box.sb-big h2 {
+	margin-top: 18px;
+	font-size: 23px; line-height: 1.2;
+}
+.select-box.sb-big .separate-line span {
+	width: 160px; height: 30px;
+	position: absolute; top: -15px; left: 50%; margin-left: -80px;
+	border: 1px solid #eaeaea; border-radius: 16px;
+	background: #fff;
+	font-size: 16px; line-height: 30px; color: #3c6; text-align: center;
+}
+.select-box.sb-big .count-channels {
+	padding: 20px 0 20px;
+	font-size: 38px; line-height: 28px; color: #59bdcd;
+}
+.select-box.sb-big .count-channels span {
+	display: block;
+	font-size: 19px;
+}
+/* 		select-boxes small */
+.select-box.sb-small{
+	margin-bottom: 20px;
+	padding-top: 15px;
+	width: 206px;
+	height: 265px;
+}
+.select-box.sb-small h2.price{ font-size: 48px; }
+.select-box.sb-small h2.price:after{ content:'%'; }
+.select-box.sb-small .count-channels{ font-size: 14px; color: #999; height: 55px; overflow-y: hidden }
+.select-box.sb-small .count-channels span{ display: block }
+.select-box.sb-small .count-channels p{ font-size: 14px; }
+
+.step2 .channel-partners-list,
+.step1-2 .channel-percent-list,
+.step1-3 .preferred-billing,
+.step3 .channel-percent-list,
+.step4 .agreements,
+.step5 .registration-result {
+	width: auto;
+	padding: 0 40px;
+}
+.step2 .channel-partners-list {max-width: 930px;}
+.step1-2 .channel-percent-list {max-width: 940px;}
+.step1-3 .preferred-billing {max-width: 860px;}
+.step3 .channel-percent-list{max-width: 860px;}
+.step5 .registration-result {max-width: 760px;}
+.steps .btn.btn-next {
+	background-color: #33cb65;
+	border-color: #33cb65;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 12px;
+}
+
+@media(max-width: 991px) {
+	.select-box.sb-big {margin: 0  auto 20px;}
+	.step2 .channel-partners-list {max-width: 500px;}
+	.step5 .invitation-block button {margin-top: 25px;}
+}
+@media(max-width: 768px) {
+	.step2 .channel-partners-list,
+	.step1-2 .channel-percent-list,
+	.step1-3 .preferred-billing,
+	.step3 .channel-percent-list,
+	.step4 .agreements,
+	.step5 .registration-result {padding: 0 5px;}
+}
+/*MODAL*/
+#paymantModale .modal-dialog {
+	width: 510px;
+	margin: 30px auto;
+}
+#paymantModale .modal-title {
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+#paymantModale .top-heading {
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+#paymantModale .form-heading {
+	font-size: 29px;
+	color: #3ac76b;
+	margin: 0;
+}
+#paymantModale .modal-body {padding: 20px  0;}
+#paymantModale .modal-form {padding: 0 27px;}
+#paymantModale .modal-form label {
+	font-size: 18px;
+	font-weight: 100;
+	color: #b4b4b4;
+}
+#paymantModale .modal-form input.form-control {
+	height: 60px;
+	border-radius: 0;
+	border: 0;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #000;
+	background: #eee;
+}
+#paymantModale .bottom-heading {
+	font-size: 20px;
+	margin: 20px 30px 2px;
+}
+#paymantModale .bottom-heading a,
+#paymantModale .bottom-heading span {
+	color: #3ac76b;
+	font-weight: bolder;
+}
+#paymantModale .btn-back{
+	font-size: 22px;
+	padding: 15px 45px;
+}
+#paymantModale .btn-next{
+	font-size: 22px;
+	padding: 15px 45px;
+}
+#paymantModale .modal-footer {padding : 25px 27px;}
+@media(max-width: 991px) {
+	.step3 .select-box.sb-small  {
+		float: none !important;
+	}
+}
+
+

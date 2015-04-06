@@ -1,0 +1,79 @@
+a {color: #66a3d6;}
+.notice-name {width: 27%}
+.notice-info {width: 40%}
+.notice-target {
+	width: 33%;
+	text-align: right;
+}
+.customers-price {color: #52c96b}
+.notice-name span {
+	background: none repeat scroll 0 0 red;
+	border-radius: 50%;
+	display: inline-block;
+	height: 11px;
+	margin-right: 20px;
+	width: 11px;
+}
+.view-all-link {margin-left: 20px;}
+.commisions-value {color: #000;}
+#Customers .table.statistic-table td,
+#CommisionPayments .table.statistic-table td {
+	height: 100px;
+	font-weight: 100;
+}
+.bolder {font-weight: bolder}
+.book-btn{
+	font-size: 16px;
+	padding: 5px 18px;
+	color: #fff;
+	background: #28974d;
+	border-radius: 2px;
+	font-weight: 100;
+}
+.book-btn:hover {
+	background: #4de27f;
+	color: #fff;
+}
+.status-btn {
+	padding: 4px 0;
+	width: 165px;
+	border-radius: 0;
+	font-size: 16px;
+}
+.full-paid:hover,
+.full-paid {
+	color: #2b8f4c;
+	border: 1px solid #2b8f4c;
+}
+.pre-departure:hover,
+.pre-departure {
+	color: #5d6777;
+	border: 1px solid #5d6777;
+}
+.payment-pending:hover,
+.payment-pending {
+	color: #ee9e36;
+	border: 1px solid #ee9e36;
+}
+.refering-footer {
+	padding: 22px 52px 22px 50px;
+	background: #fff;
+	margin-top: -5px;
+	border: 1px solid #e4e4e4;
+	border-radius: 0 0 10px 10px;
+	border-top: 0;
+}
+.refering-footer span{
+	background: url(../../../img/admin/pm/info-icon.png) 0 0 / cover;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.refering-footer p{
+	margin: 0;
+	color: #a6a6a6;
+	display: inline;
+}

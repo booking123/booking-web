@@ -1,0 +1,311 @@
+<h2 class="page-header">Report: Account Verifications Pending</h2>
+
+<div class="row">
+	<div class="col-lg-12">
+		<form  role="form" method="post" action="{{ url('admin/root/channels/searchcp/') }}" id="searchCP">
+			<div class="form-group">
+				<label for="cp-search-name">Search Name</label>
+				<input type="text" class="form-control" id="cp-search-name" placeholder="Search Name" name="s" value="">
+			</div>
+			<button type="submit">Search</button>
+		</form>
+		<table id="exist_channels" class="table table-striped table-condensed">
+			<thead>
+			<tr>
+				<th>#</th>
+				<th>ID</th>
+				<th>Name</th>
+				<th>EmailAddress</th>
+				<th>State</th>
+				<th>User Type</th>
+				<th>Channel ID</th>
+				<th>Date Create</th>
+				<th>Relation</th>
+			</tr>
+			</thead>
+			<tbody></tbody>
+			<tfoot>
+			<tr>
+				<td><input id="cp_not_use" type="radio" name="cp" data-party="0" value="" checked="checked" /></td>
+				<td colspan="8">Not use eny cp</td>
+			</tr>
+			</tfoot>
+		</table>
+
+		<br /><hr/><br />
+		<form role="form" method="post" action="{{ url('admin/root/channels/addcp/') }}" id="addCP">
+			<div class="form-group">
+				<label for="cp-name">Name</label>
+				<input type="text" class="form-control" id="cp-name" placeholder="Channel Name" name="Name" value="">
+			</div>
+
+			<div class="form-group">
+				<label for="cp-contact-name">Contact Name</label>
+				<input type="text" class="form-control" id="cp-contact-name" placeholder="Contact Name" name="ContactName" value="">
+			</div>
+
+			<div class="form-group">
+				<label for="cp-email">Email Address</label>
+				<input type="text" class="form-control" id="cp-email" placeholder="Email Address" name="Email" value="">
+			</div>
+
+			<div class="form-group">
+				<label for="cp-phone">Phone Number</label>
+				<input type="text" class="form-control" id="cp-phone" placeholder="Phone Number" name="Phone" value="">
+			</div>
+
+			<div class="form-group">
+				<label for="cp-site">Web Site</label>
+				<input type="text" class="form-control" id="cp-site" placeholder="Web Site" name="WebSite" value="">
+			</div>
+			<div class="form-group">
+				<label for="cp-address">Postal Address</label>
+				<input type="text" class="form-control" id="cp-address" placeholder="Postal Address" name="PostalAddress" value="">
+			</div>
+			<div class="form-group">
+				<label for="cp-zip">Postal Code</label>
+				<input type="text" class="form-control" id="cp-zip" placeholder="Postal Code" name="PostalCode" value="">
+			</div>
+			<div class="form-group">
+				<label for="cp-country">Country</label>
+				<input type="text" class="form-control" id="cp-country" placeholder="Country" name="Country" value="">
+			</div>
+
+			<div class="form-group">
+				<label for="cp-state">State</label>
+				<select class="form-control" id="cp-state" name="State">
+					<option selected="selected" value="Created">Created</option>
+					<option value="Final">Final</option>
+					<option value="Initial">Initial</option>
+					<option value="Suspended">Suspended</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="cp-type">channel_type</label>
+				<select class="form-control" id="cp-type" name="ChannelType">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option selected="selected" value="5">5</option>
+				</select>
+			</div>
+
+			<button type="submit" class="btn btn-default">Create</button>
+			<input type="hidden" name="PartyID" id="party_id" value="" />
+		</form>
+
+		<table id="added_channel" class="table">
+			<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Channel ID</th>
+				<th>State</th>
+				<th>User Type</th>
+				{#<th>Count Relation</th>#}
+			</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		<iframe id="generatorPOS" src="" style="border: 1px solid #f0f; width: 300px; height: 50px"></iframe>
+		<div id="ResultList">
+
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			</div>
+			<div class="modal-body">
+				<table class="table table-striped table-condensed" id="pm_relation_cp">
+					<thead>
+					<tr>
+						<th colspan="2">Need Exist PM</th>
+						<th>Exist PM in User</th>
+					</tr>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>ID</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for pm in listPM %}
+						<tr>
+							<td>{{ pm.ID }}</td>
+							<td>{{ pm.Name }}</td>
+							<td id="pm_{{ pm.ID }}"></td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+				<h3>User Have:</h3>
+				<div id="cp_have_pm" style="border: 1px solid #cccccc; padding: 10px;">
+
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#exist_channels').on('change', 'input', function () {
+			var party_id = $(this).data('party');
+			if (!party_id) {
+				$('input','#addCP').val('');
+				return;
+			}
+			$.ajax({
+				url: SITE_URL + 'channels/getparty/',
+				data: { id: party_id },
+				method: 'get',
+				dataType: 'json',
+				success: function (resp) {
+					if (resp.error) {
+						alert(resp.message);
+						$('input','#addCP').val('');
+						$('#cp_not_use').click();
+						return;
+					}
+
+					$('#cp-name').val(resp.data.Name);
+					$('#cp-contact-name').val(resp.data.ExtraName);
+					$('#cp-email').val(resp.data.EmailAddress);
+					$('#cp-phone').val(resp.data.DayPhone);
+					$('#cp-site').val(resp.data.WebAddress);
+					$('#cp-address').val(resp.data.PostalAddress);
+					$('#cp-zip').val(resp.data.PostalCode);
+					$('#cp-country').val(resp.data.Country);
+
+					$('#party_id').val(resp.data.ID);
+				},
+				error: function () {
+					alert('Error');
+					$('input','#addCP').val('');
+					$('#cp_not_use').click();
+				}
+			});
+		});
+
+		$('#searchCP').submit(function () {
+			$.ajax({
+				url: this.action,
+				data: $(this).serialize(),
+				dataType: 'json',
+				success: function (resp) {
+					$('tbody tr', '#exist_channels').remove();
+
+					if (resp.data.exist_channels) {
+						console.log(resp.data.exist_channels);
+						for (var i in resp.data.exist_channels) {
+							$('tbody', '#exist_channels').append('<tr>'
+									+ '<td><input type="radio" data-party="' + resp.data.exist_channels[i].ID + '" data-channel="' + resp.data.exist_channels[i].cp_id + '" name="cp" /></td>'
+									+ '<td>' + resp.data.exist_channels[i].ID + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].Name + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].EmailAddress + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].state + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].UserType + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].cp_id + '</td>'
+									+ '<td>' + resp.data.exist_channels[i].version + '</td>'
+									+ '<td><a class="relation" href="#">Relation</a></td>'
+									+ '</tr>');
+						}
+					}
+				}
+			});
+
+			return false;
+		});
+
+		$('#addCP').submit(function () {
+			$.ajax({
+				url: this.action,
+				data: $(this).serialize(),
+				dataType: 'json',
+				success: function (resp) {
+					$('tbody tr', '#exist_channels').remove();
+					$('tbody tr', '#added_channel').remove();
+
+					if (resp.error) {
+						if (resp.data.exist_channels) {
+							for (var i in resp.data.exist_channels) {
+								$('tbody', '#exist_channels').append('<tr>'
+										+ '<td>' + resp.data.exist_channels[i].ID + '</td>'
+										+ '<td>' + resp.data.exist_channels[i].Name + '</td>'
+										+ '<td>' + resp.data.exist_channels[i].EmailAddress + '</td>'
+										+ '<td>' + resp.data.exist_channels[i].state + '</td>'
+										+ '<td>' + resp.data.exist_channels[i].UserType + '</td>'
+										+ '<td>' + resp.data.exist_channels[i].cp_id + '</td>'
+										+ '</tr>');
+							}
+						}
+
+						console.log(resp.message);
+						return;
+					}
+
+					$('tbody','#added_channel').append('<tr>'
+							+ '<td>' + resp.data.party.ID + '</td>'
+							+ '<td>' + resp.data.party.Name + '</td>'
+							+ '<td>' + resp.data.channel.id + '</td>'
+							+ '<td>' + resp.data.party.State + '</td>'
+							+ '<td>' + resp.data.party.UserType + '</td>'
+//							+ '<td>' + resp.data.mtc + '</td>'
+							+ '</tr>');
+
+					$('#ResultList').html('Party ID = ' + resp.data.party.ID + '<br />' +
+							'CP ID = ' + resp.data.channel.id + '<br />' +
+							'POS = ' + resp.data.pos + '<br />');
+
+					document.getElementById('generatorPOS').src = 'https://www.mybookingpal.com/xml/services/json/party/posorid?id=' + resp.data.party.ID;
+				}
+			});
+
+			return false;
+		});
+	}).on('click', '.relation', function () {
+		var id = $(this).parents('tr').find('input[type=radio]').data('channel');
+
+		if (id) {
+			$('#pm_relation_cp tbody tr').each(function () {
+				$(this).find('td').eq(2).html('');
+			});
+
+			$.ajax({
+				url: SITE_URL + 'channels/getcprelation',
+				data: {id: id},
+				dataType: 'json',
+				success: function (resp) {
+					$('#myModal').modal('show');
+
+					var pm = [];
+					for (var i = 0; i < resp.data.use_pm.length; i++) {
+						var id = '#pm_' + resp.data.use_pm[i].property_manager_id;
+						if ($(id).length) {
+							$(id).parents('tr').find('td:eq(2)').html('Yes');
+						} else {
+							pm.push(resp.data.use_pm[i].property_manager_id);
+						}
+					}
+
+					$('#cp_have_pm').html(pm.join(', '));
+
+				}
+			});
+		}
+
+		return false;
+	});
+</script>

@@ -1,0 +1,407 @@
+/*html,body {height: 100%;}*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #4d4046;
+}
+img {max-width: 100%;}
+/*.wrapper {*/
+	/*min-height: 100%;*/
+	/*height: auto !important;*/
+	/*height: 100%;*/
+/*}*/
+/*LOGIN HEADER*/
+.login-header  .dropdown-menu {
+	min-width: inherit;
+	width: 100%;
+}
+.login-header .container {max-width: 1045px;}
+.login-header .navbar.navbar-default {
+	height: 88px;
+	background: #fff;
+    border-bottom-color: #e3e3e3;
+    border-radius: 0;
+    border-width: 0 0 1px;
+}
+.login-header .navbar.navbar-default .navbar-brand {padding: 28px 15px 0;}
+.login-header .navbar.navbar-default .navbar-brand img {
+	max-width: 230px;
+	max-height: 60px;
+}
+
+.login-header .navbar .nav a,
+.login-header .navbar .nav a:hover,
+.login-header .navbar .nav a:active{
+	font-size: 16px;
+    color: #4b3e44;
+}
+.login-header .navbar .nav {margin-top: 15px;}
+.login-header .navbar-nav > li > a {
+	padding: 2px 22px 3px 22px ;
+	border-right: 1px solid #e3e3e3;
+}
+.login-header .navbar-nav > li > a.active,
+.login-header .navbar-nav > li > a.active:hover{color: #e5e5e5}
+.login-header .navbar-nav > li {margin-top: 19px;}
+.login-header .navbar-nav > li:last-child {margin-top: 12px;}
+
+.login-header .navbar-nav > li:last-child {padding-left: 30px;}
+.login-header .navbar-default .navbar-toggle .icon-bar {background-color: #000;}
+.login-header .search-button {
+	background: url('../../img/frontend/login/search-icon.png') no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.login-header .navbar-default .navbar-collapse,
+.navbar-default .navbar-form {border: 0;}
+.language-btn.btn {
+	border-radius: 3px 0 0 3px;
+	padding: 9px 28px 9px 12px;
+    color: #4b3e44;
+	width: 100px;
+}
+.language-btn.btn:hover,
+.language-btn.btn:active,
+.language-btn.btn:focus{background: #fff;}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {background: #fff;}
+.btn-group.open .dropdown-toggle {box-shadow: none;}
+.login-header  .btn-group > .btn + .dropdown-toggle {padding: 9px 14px;}
+.arrow {
+	display: inline-block;
+	width: 14px;
+	height: 8px;
+	margin-left: 0;
+	vertical-align: middle;
+	background: url('../../img/frontend/login/dropdown-icon.png');
+}
+/*LOGIN CONTENT*/
+.content-wrapper a{color: #3c8cc9;}
+.content-wrapper a:hover,
+.content-wrapper a:active,
+.content-wrapper a:focus{
+    color: #3c8cc9;
+    text-decoration: none;
+}
+.content-wrapper{
+	padding-bottom: 70px;
+}
+.login-block .form-group.has-error label{
+	color: #a94442;
+	font-weight: bold;
+}
+.login-content,
+.login-block  {text-align: center;padding-bottom: 35px;}
+.login-block .dropdown-menu {
+	min-width: 1px;
+	width: 100%;
+}
+.login-content {max-width: 860px;}
+.login-content h1 {
+	font-size: 31px;
+	margin-top: 34px;
+}
+.login-content .booking-info {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+	margin-top: 32px;
+	margin-bottom: 30px;
+	color: #aaaaaa;
+}
+/*LOGIN BLOCK*/
+.login-wrapper  {
+	max-width: 355px;
+	margin: 0 auto;
+}
+.login-wrapper .input-group {
+	position: relative;
+}
+.login-wrapper  .input-group-btn {
+	position: static;
+}
+.login-block  input[type=text],
+.login-block  input[type=password]{height: 38px;}
+.login-block {
+	background: #f3f4f9;
+	border: 1px solid #e5e5e5;
+	max-width: 830px;
+	margin-bottom: 10px;
+}
+/*.content-wrapper {padding: 0 0 183px;}*/
+.login-block   .login-heading {
+	margin-top: 32px;
+	font-size: 16px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+	margin-bottom: 33px;
+}
+.login-block  .login-heading a span  {
+	width: 15px;
+	height: 13px;
+	background: url('../../img/frontend/login/reg-icon.png');
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-bottom: 4px;
+	color: #4d4046;
+}
+.login-block  .login-heading span  {margin-right: 15px;}
+.login-block .or-divider {
+	background: none repeat scroll 0 0 #f3f4f9;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	color: #4d4046;
+	font-size: 12px;
+	left: 50%;
+	margin-left: -18px;
+	margin-right: 0;
+	margin-top: 12px;
+	padding: 9px;
+	position: absolute;
+	top: 50%;
+}
+.login-block h4 {
+	font-size: 16px;
+	color: #4d4046;
+	margin-bottom: 24px;
+}
+.login-block .form-group {text-align: left;}
+.login-block .form-group label {
+	color: #aaaaaa;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.login-block .checkbox label {color: #aaaaaa;}
+.login-block .checkbox {
+	float: right;
+	margin-top: 0;
+}
+.login-block .lost-pass {float: left;}
+.login-block .log-in-button {
+	padding: 9px 37px;
+	background: #2773b4;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	margin: 20px auto 10px;
+	display: block;
+}
+/*FOOTER*/
+footer {
+	background: #1a1f25;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #fcfcfd;
+	margin: -183px 0 0;
+	height: 185px;
+}
+.footer {max-width: 890px;}
+.footer .footer-menu {
+	list-style: none;
+	margin: 9px 0 0;
+	padding: 0;
+}
+.footer .footer-menu li {
+	display: inline;
+	font-weight: 200;
+	padding-right: 9px;
+
+}
+.footer .footer-menu li a {color: #fcfcfd;}
+.footer  .footer-top {
+	margin-top: 28px;
+	border-bottom: 2px solid #2d343a;
+	border-top: 2px solid #2d343a;
+	padding: 12px 0 12px;
+}
+.footer  .col-md-8,
+.footer  .col-md-4 {padding: 0;}
+.footer  .number {
+	text-align: right;
+	margin-bottom: 7px;
+	margin-top: 5px;
+}
+.footer  .number span {font-size: 18px;}
+.footer .footer-bottom {
+	margin-bottom: 30px;
+	font-size: 10px;
+}
+.footer .footer-bottom .rights {
+	list-style: none;
+	margin: 20px 0 0 ;
+	padding: 0;
+	color: #656668;
+}
+.footer .footer-bottom .rights li a {color: #656668;}
+.footer .footer-bottom .rights li {display: inline;}
+.footer .footer-bottom .brands-logos {
+	float: right;
+	margin-top: 10px;
+}
+.footer .footer-bottom .brands-logos li {display: inline-block;}
+.footer .footer-bottom .brands-logos li a {
+	width: 40px;
+	height: 39px;
+	display: block;
+	background: url('../../img/frontend/login/logoes-sprite.png') 0 0 / cover;
+}
+.footer a {text-decoration: none;}
+.footer .footer-bottom .brands-logos li.twitter-icon a{background-position:  -45px 0 }
+.footer .footer-bottom .brands-logos li.linkedin-icon a{background-position:  -88px 0 }
+.footer .footer-bottom .brands-logos li.rss-icon a{background-position:  -132px 0 }
+
+
+@media (max-width: 991px) {
+	/*.content-wrapper {padding: 0 0 210px;}*/
+	.footer  .number {text-align: left;}
+	.footer .footer-bottom .rights {float: left;}
+	footer {
+		margin: -210px 0 0;
+		height: 210px;
+	}
+}
+@media (max-width: 768px) {
+	/*HEADER*/
+	.login-header .navbar-brand {
+		padding: 17px 4px;
+		width: 130px;
+		height: 50px;
+	}
+	.login-block .dropdown-menu {
+		width: 100%;
+		min-width: 1px;
+	}
+	.login-header .navbar .search-button.visible-xs {
+		float: right;
+		margin: 25px 32px 0 0;
+	}
+	.login-header  .navbar-collapse.collapse.in {
+		border-bottom: 1px solid #e3e3e3;
+		border-right: 1px solid #e3e3e3;
+		position: absolute;
+		width: 100%;
+		z-index: 3;
+	}
+	.login-header  .navbar-nav {
+		margin-top: 20px;
+		padding-left: 30px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		background: #fff;
+		margin-bottom: 0;
+	}
+	.login-header  .navbar-nav > li > a {
+		border-right: 0;
+		padding: 2px 0 3px;
+	}
+	.login-header  .navbar-nav > li:first-child > a {padding: 2px 0 3px;}
+	.login-header  .navbar-toggle {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px ;
+		border: 0;
+		margin-right: 0;
+	}
+	.login-header  .navbar-nav > li:last-child {padding-left: 0;}
+	.login-header .navbar.navbar-default {height: 70px;}
+	.login-content h1 {
+		font-size: 20px;
+		margin-top: 0;
+	}
+	/*LOGIN-BLOCK*/
+	.login-block {margin-bottom: 0;border-width: 1px 0;margin-top: 10px;}
+	.login-block .login-heading,
+	.login-block h4{font-size: 14px;}
+	.login-block .or-divider {font-size: 10px;}
+	.login-block .login-heading {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+	.login-block .or-divider {margin-top: 8px;}
+	.login-content .booking-info {
+		margin-top: 15px;
+		margin-bottom: 40px;
+		font-size: 13px;
+		text-align: center;
+	}
+	.login-content, .login-block {padding-bottom: 0;}
+	/*FOOTER*/
+	footer {
+		height: auto;
+		margin: -140px 0 0;
+	}
+	.footer .footer-bottom .brands-logos li a {
+		width: 20px;
+		height: 20px;
+	}
+	.footer .footer-bottom .brands-logos li.linkedin-icon a {background-position:  -111px 0 }
+	.footer .footer-bottom .brands-logos li.rss-icon a {background-position:  -156px 0 }
+	.footer .number {float: left;}
+	.footer  .col-md-8,
+	.footer  .col-md-4 {padding: 0 15px 0;}
+	.footer .footer-bottom .rights {
+		clear: both;
+		font-size: 12px;
+	}
+	.footer  .number {
+		text-align: left;
+		margin-top: 10px;
+		color: #656668;
+	}
+	.footer  .number span {
+		font-size: 14px;
+		color: #fff;
+	}
+	.footer .footer-top {
+		margin-top: 0;
+		border-bottom: 2px solid #2d343a;
+		border-top: 0;
+		padding: 12px 0 12px;
+	}
+
+}
+/*Registration*/
+.options-toggle .btn {padding: 8px 16px;}
+.options-toggle {vertical-align: bottom;}
+.input-group .form-control:not(:first-child):not(:last-child) {border-radius: 5px 0 0 5px;}
+.pm-reg-heading {
+	margin-top: 40px;
+}
+.checkbox-none {margin-left: 20px}
+.checkbox-none input[type="checkbox"] {
+	vertical-align: top;
+}
+.reg-complete p  {
+	color: #aaaaaa;
+	margin-top: 30px;
+}
+.reg-complete p span  {
+	color: #4b3e44;
+}
+input.ng-invalid.ng-dirty {
+	border-color: #a94442;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(213, 27, 27, 0.6);
+
+}
+.alert{
+	display: none;
+}
+.alert.alert-danger{
+	display: block;
+}
+/* Registration page */
+#blockConfirm,
+#blockForCP,
+#blockForPM{
+	display: none;
+}
+.input-group{
+	width: 100%;
+}

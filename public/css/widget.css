@@ -1,0 +1,1513 @@
+body{font-family: "Open Sans",sans-serif; font-weight: 400;}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], select, textarea {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    font-family: "Open Sans",sans-serif;
+}
+.floater_left{float: left;}
+.floater_right{float: right;}
+.clearer{clear: both;}
+.margin_right_2{margin-right: 2px;}
+.margin_right_4{margin-right: 4px;}
+.margin_right_5{margin-right: 5px;}
+.margin_right_10{margin-right: 10px;}
+.margin_bottom_10{margin-bottom: 10px;}
+
+
+
+/************************************************/
+/************* Popup Window START ***************/
+/************************************************/
+.popup_window_input_field, .popup_window_select_field, .popup_window_grey_input_field,
+.popup_window_custom_input_field, .popup_window_custom_select_field{
+    height: 26px;
+    border-radius: 5px;
+    color: #003960;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.popup_window_input_field, .popup_window_select_field, .popup_window_grey_input_field{
+    width: 179px;    
+}
+
+.popup_window_input_field_md{width: 41px; margin-right: 10px;}
+.popup_window_input_field_yy{width: 71px;}
+
+.popup_window_input_field, .popup_window_select_field,
+.popup_window_custom_input_field, .popup_window_custom_select_field{
+    border: 1px solid #0286D7;    
+}
+
+.popup_window_grey_input_field{border: 1px solid #D5D5D7;}
+.popup_window_red_input_field{border: 1px solid #F00;}
+
+/* style for error page */
+.popup_window_custom_input_field .popup_window_red_input_field{border: 1px solid #F00; background: #f0f;}
+
+.popup_window_input_field, .popup_window_grey_input_field,
+.popup_window_custom_input_field{
+    padding: 3px 8px;
+}
+
+.popup_window_select_field,
+.popup_window_custom_select_field{
+    padding: 3px 8px;
+    line-height: 20px; 
+    
+}
+
+.popup_window_datepicker_field{
+    background: url("../img/regular_field_date_icon.png") no-repeat 146px -1px #FFFFFF;
+    cursor: pointer; 
+}
+
+.popup_window_textarea{
+    height: 58px;
+    width: 100%;
+    border: 1px solid #0286D7 !important;
+    color: #003960;
+    font-size: 13px;
+    font-weight: bold;
+    resize: none;
+    padding: 5px 8px;
+}
+
+
+
+/******* Field Placeholder style START ******/
+
+.popup_window_input_field::-webkit-input-placeholder{
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+ 
+.popup_window_input_field:-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_input_field::-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_input_field:-ms-input-placeholder {  
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_grey_input_field::-webkit-input-placeholder{
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+ 
+.popup_window_grey_input_field:-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_grey_input_field::-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_grey_input_field:-ms-input-placeholder {  
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_custom_input_field::-webkit-input-placeholder{
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+ 
+.popup_window_custom_input_field:-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_custom_input_field::-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_custom_input_field:-ms-input-placeholder {  
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+
+.popup_window_textarea::-webkit-input-placeholder{
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+ 
+.popup_window_textarea:-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_textarea::-moz-placeholder { 
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+.popup_window_textarea:-ms-input-placeholder {  
+   color: #AEAEAE;
+   opacity: 1 !important;
+   font-style: italic;
+}
+
+
+/******* Field Placeholder style END ********/
+
+
+.popup_window_search_result{
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%; 
+    
+    color: #003960;
+    font-size: 11px;
+}
+   
+.popup_window_search_result .popup_window_search_result_back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #000000;
+    opacity: 0.8; 
+    top: 0;
+    left: 0;
+}
+
+
+/******* Popup Contact and Book Step1 START ********/
+.popup_window_search_result .popup_window_contact_owner_wrapper, 
+.popup_window_search_result .popup_book_step1_wrapper{ 
+    margin: -174px 0 0 -210px;
+    width: 418px;
+    /*height: 469px;*/
+    position: relative;
+    z-index: 1000;  
+
+    background-color: #FFFFFF;
+  /*  border: 1px solid #B9B9B9;    */
+}
+
+.popup_book_step1_wrapper .close, .popup_book_step2_wrapper .close, .popup_book_step3_wrapper .close{position: absolute; top: 10px; right: 10px; width: 25px; height: 25px; background: url(../img/close_popup_black.png); text-decoration: none;}
+
+.popup_window_heading{
+    height: 45px;
+    
+    background-color: #002e7f;
+    background-image:-moz-linear-gradient(top,#00356c,#002a89); 
+    background-image:-webkit-gradient(linear,top,#00356c,#002a89);
+    background-image:-webkit-linear-gradient(top,#00356c,#002a89);
+    background-image:-o-linear-gradient(top,#00356c,#002a89);
+    background-image:-ms-linear-gradient(top,#00356c,#002a89);
+    background-image:linear-gradient(top,#00356c,#002a89);
+}
+
+.popup_window_heading .popup_heading_text{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 0 0 15px;
+}
+
+.popup_window_contact_owner_wrapper .popup_contact_owner_content_wrapper{
+    margin: 0 20px;
+    padding: 20px 0 10px 0; 
+}
+
+.popup_book_step1_wrapper .popup_book_step1_content_wrapper{
+    margin: 0 15px;
+    padding: 20px 0 15px 0; 
+}
+
+.popup_content_error{font-size: 14px; font-weight: bold; color: #F00; margin: -8px 0px 8px;}
+
+.popup_contact_owner_content_wrapper .popup_content_title,
+.popup_book_step1_content_wrapper .popup_content_title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.popup_book_step1_content_wrapper .popup_content_title{
+    padding: 0 2px;
+}
+
+.popup_content_title .popup_content_title_highlight{
+    color: #99CA50;
+}
+
+.popup_contact_owner_content_wrapper .popup_content_field_row{
+    margin-top: 12px;   
+}
+
+.popup_contact_owner_content_wrapper .popup_contact_flexible_departure_dates_text{
+    margin-left: 6px;
+    padding-top: 2px;
+    float: left;
+}
+
+.popup_contact_owner_content_wrapper .departure_dates_checkbox{
+    float: left;
+}
+
+.popup_contact_owner_content_wrapper .contact_pearson_number_div{
+    float: right; 
+    font-size: 9px;
+    font-weight: bold;  
+    padding-top: 4px; 
+}
+
+.contact_pearson_number_div .contact_pearson_number_label{
+    margin: 0 5px;
+    float: left;
+    padding-top: 4px;
+}
+
+.popup_contact_owner_content_wrapper .popup_contact_terms_text{
+    margin: 7px 5px;
+}
+
+.popup_contact_owner_content_wrapper .popup_contact_terms_text span{
+    color: #0033FF;  
+    text-decoration: none;  
+    cursor: pointer; 
+}
+
+.popup_contact_owner_content_wrapper .popup_dashed_line{
+    /* border-bottom: 1px dashed #B9B9B9; */
+    background: url("https://mybookingpal.com/img/widget_dashed_line.gif");
+    height: 1px;
+    width: 100%;
+}
+
+/******* Popup Contact END ********/
+
+
+
+
+
+/******* Popup Book Step1 START ********/
+
+.popup_book_step1_content_wrapper .popup_book_step1_dates_row{
+    margin-bottom: 18px;
+    padding: 0 2px;   
+}
+
+
+.popup_book_step1_content_wrapper .book_person_number_row{
+    font-size: 14px;
+    font-weight: bold; 
+    margin-bottom: 15px;
+    padding: 0 4px; 
+}
+
+.book_person_number_row .book_person_number_label{
+    float: left;
+    padding-top: 4px;
+    margin-right: 7px;
+}
+
+
+.book_person_number_row .pets_checkbox {
+    float: left;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+
+.popup_book_step1_content_wrapper .popup_dashed_line{
+    border-bottom: 1px dashed #0286D7;
+    height: 1px;
+    width: 100%;
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_regular_row{
+    margin: 8px 30px 8px 0;    
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_label{
+    float: left;
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_value{
+    float: right;
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_totals_div{
+    height: 57px;
+    background-color: #d9edf9;
+    padding: 0 20px 0 5px;
+    margin: 15px 0;
+}                 
+
+.popup_book_step1_content_wrapper .popup_book1_table_totals_main_row{
+    padding: 8px 0 0 0;    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_totals_second_row{
+    margin: 2px 0 0 0;    
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+.popup_book_step1_content_wrapper .popup_book1_table_cancellation_row{
+    margin: 10px 0;    
+}
+/******* Popup Book Step1 END ********/
+
+
+/******* Popup Book Step2 START ********/
+.popup_window_search_result_payment, .popup_window_search_result_payment_created{
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%; 
+    color: #003960;
+    font-size: 12px;
+}
+   
+.popup_window_search_result_payment .popup_window_search_result_back, .popup_window_search_result_payment_created .popup_window_search_result_back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #000000;
+    opacity: 0.8; 
+    top: 0;
+    left: 0;
+}
+
+
+.popup_window_search_result_payment .popup_book_step2_wrapper, .popup_window_search_result_payment_created .popup_book_step3_wrapper{
+    margin: -375px 0px 0px -292px;
+    width: 595px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #FFFFFF;
+}
+
+.popup_book_step2_wrapper .popup_book_step2_content_wrapper, .popup_book_step3_wrapper .popup_book_step3_content_wrapper{
+    margin: 0 10px;
+    padding: 10px 0;   
+}
+
+.popup_book_step2_wrapper .popup_book_step2_content_form{
+    margin: 0;
+}
+
+.popup_book_step2_wrapper .book_step2_head_info_title{
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.book_step2_head_info_title .book_step2_head_info_title_main_part{
+    font-weight: bold;   
+}
+
+.popup_book_step2_wrapper .book_step2_content_top_div{
+    margin-bottom: 20px;   
+}
+
+.book_step2_content_top_div .book_step2_info_img_div{
+    float: left;  
+    width: 220px;
+    border-right: 1px solid #0286D7;   
+    margin-left: 10px;  
+}
+
+.book_step2_info_img_div .book_step2_img_div{
+    width: 154px;
+    height: 104px;
+    padding: 6px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+}
+
+.book_step2_img_div .book_step2_img_wrapper{
+    width: 140px;
+    height: 90px; 
+    
+    overflow: hidden;   
+}
+
+.book_step2_img_wrapper .image_set_height{
+    height: 90px; 
+}
+.book_step2_img_wrapper .image_set_width{
+    width: 140px; 
+}
+
+.book_step2_info_img_div .book_step2_head_info_text{
+    margin: 5px 0 0 0px;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.book_step2_head_info_text .book_step2_head_info_text_row{
+       
+}
+
+.book_step2_head_info_text .book_step2_head_info_value{
+    color: #99CA50;
+    font-weight: bold;
+}
+
+.book_step2_head_info_text .book_step2_return_link{
+    cursor: pointer;
+    color: #0033FF;
+    text-decoration: underline;
+}
+
+.book_step2_content_top_div .book_step2_info_guest_information_div{
+    float: left;
+    width: 295px; 
+    margin-left: 24px;
+}
+
+.book_step2_info_guest_information_div .book_step2_form_subtitle_div{
+    color: #99CA50;  
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.book_step2_info_guest_information_div .book_step2_info_guest_information_fields_div{
+    
+}
+
+.book_step2_info_guest_information_div .one_per_line_field{
+    width: 295px;
+}
+
+.book_step2_info_guest_information_div .two_per_line_field{
+    width: 140px;
+}
+
+.book_step2_info_guest_information_fields_div .book_step2_guest_info_one_row{
+    margin-bottom: 10px;  
+}
+
+.popup_book_step2_content_wrapper .book_step2_form_wrapper{
+    /*
+    border: 1px solid #0286D7;
+    margin-top: 20px;
+    */
+}
+
+.popup_book_step2_content_wrapper .popup_dashed_line{
+    border-bottom: 1px dashed #003960;
+    height: 1px;
+    /* width: 100%; */
+}
+
+.popup_book_step2_content_wrapper .popup_regular_line{
+    border-bottom: 2px solid #FFFFFF;
+    height: 2px;
+    /* width: 100%; */
+}
+
+.book_step2_form_wrapper .book_step2_form_content_wrapper{
+    padding-left: 8px;    
+    padding-right: 8px;    
+}
+
+.book_step2_form_wrapper .book_step2_field_text_wrapper{
+    padding-left: 2px;    
+    padding-right: 2px;    
+}
+
+.book_step2_form_wrapper .book_step2_form_heading_div{
+    height: 100px;
+    background-color: #d9edf9;    
+}
+
+.book_step2_form_heading_div .book_step2_form_heading_title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+
+.book_step2_form_heading_div .book_step2_form_heading_text{
+    margin: 9px 0 0 0;
+}
+
+.book_step2_form_wrapper .book_step2_form_subtitle_div{
+    color: #99CA50;  
+    height: 20px; 
+    padding: 0px 10px 0 10px;
+    margin-bottom: 8px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.book_step2_form_subtitle_div .subtitle_text{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.book_step2_form_subtitle_div .book_step2_form_subtitle_additional_text{
+    padding: 4px 0 0 5px;
+}
+
+.book_step2_form_content_wrapper .textarea_character_left{
+    float: right;
+    font-size: 10px;
+    font-style: italic;
+    color: #000000;
+}
+
+.book_step2_form_wrapper .book_step2_form_content_section{
+    background-color: #f5f5f5;  
+}
+
+.book_step2_form_wrapper .book_step2_form_input_fields_section{
+    /*
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    */
+}
+
+.book_step2_form_wrapper .book_step2_content_table_row{
+    padding: 7px 15px 5px 7px;
+    /*
+    padding-left: 7px;    
+    padding-right: 15px;   
+    */
+}
+
+.book_step2_form_wrapper .show_details_link{
+    color: #0033FF;   
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book_step2_content_table_row .book_step2_table_row_title{
+    
+}
+
+.book_step2_table_row_title .book_step2_table_row_title_label{
+    float: left;
+    padding-right: 5px;
+}
+
+.book_step2_table_row_title .book_step2_table_row_title_value{
+    float: right;
+    padding-left: 5px;
+}
+
+.book_step2_table_row_title .popup_dashed_line{
+    overflow: hidden;
+    padding-top: 7px;
+}
+
+.book_step2_content_table_row .book_step2_table_row_main_content{
+    margin-top: 10px;   
+}
+
+.book_step2_content_table_row .book_step2_content_table_row_info_div{
+    float: left;
+    width: 167px;
+}
+
+
+
+.book_step2_content_table_row .book_step2_content_table_row_input_div{
+    float: right;
+    width: 276px;
+}
+
+
+.book_step2_form_wrapper .book_step2_radio_btn{
+    float: left;
+    margin-top: 6px;
+}
+
+.book_step2_content_table_row .book_step2_content_table_row_input_label {
+    float: left;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.book_step2_content_table_row_input_div .book_step2_content_table_row_input_left_option{
+    float: left;
+}
+
+.book_step2_content_table_row_input_div .input_protect_investment{
+    float: left;
+    margin: 0 5px;
+    width: 56px;
+    font-weight: normal !important;
+    padding: 5px 3px !important;
+}
+
+.book_step2_content_table_row_input_div .book_step2_content_table_row_input_right_option{
+    float: right;
+}
+
+.book_step2_content_table_row_input_div .input_protect_damage{
+    float: left;
+    margin: 0 5px;
+    width: 167px;
+    font-weight: normal !important;
+    padding: 3px 3px !important;
+}
+
+
+
+.book_step2_form_wrapper .book_step2_form_payment_heading{
+    background-color: #d9edf9;     
+    padding: 8px 10px;  
+    font-weight: bold; 
+}
+
+.book_step2_form_payment_heading .payment_heading_first_row{
+    font-size: 16px;
+}
+
+.book_step2_form_payment_heading .payment_heading_second_row{
+    font-size: 13px;
+}
+
+.book_step2_form_payment_heading .payment_heading_label{
+    width: 340px;
+    float: left;
+}
+
+.book_step2_form_payment_heading .payment_total_input_field{
+    height: 20px;
+    width: 82px;
+    color: #003960;
+    font-size: 16px;
+    font-weight: bold; 
+    border: 1px solid #0286D7; 
+    padding: 0px 2px;  
+    float: left; 
+}
+
+
+.book_step2_form_payment_heading .payment_heading_value_text{
+    float: left;
+    width: 82px;
+    text-align: center;
+}
+
+.book_step2_form_wrapper .book_step2_form_payment_content{
+    margin-top: 15px;   
+}
+
+.book_step2_form_payment_content .book_step2_form_payment_content_heading{
+    height: 32px;
+}
+
+.book_step2_form_payment_content_heading .book_step2_form_payment_content_heading_text{
+    width: 96px;
+    height: 32px;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    padding: 8px 0 0 15px;
+    float: left;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.book_step2_form_payment_content_heading .book_step2_form_payment_content_card_img{
+    float: left;
+    margin: 6px 0 0 10px;
+    height: 22px;
+}
+
+.book_step2_form_payment_content_card_img .payment_card_img{      
+    margin-right: 5px;    
+}
+
+.book_step2_form_wrapper .book_step2_form_payment_input_fields_section{
+    padding: 5px 10px 10px 10px; 
+    font-size: 10px;
+}
+
+.book_step2_form_payment_content .payment_input_label{
+    padding-left: 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.book_step2_form_payment_content .payment_input_row{
+    margin-bottom: 7px;    
+}
+
+.payment_input_row .payment_input_row_field{
+       
+}
+
+.payment_input_birthdate_field .book_step2_birthdate_separator{
+    margin: 3px 3px 0 3px;
+    float: left;
+    font-size: 14px;
+}
+
+.payment_input_birthdate_field .payment_input_birthdate_field_footnote_label{
+    font-size: 9px;
+    text-align: center;
+}
+
+.payment_input_row .popup_window_custom_input_field{
+    padding: 5px 3px !important;
+}
+
+.payment_input_row .popup_window_custom_select_field{
+    padding: 3px 3px !important;
+}
+
+.book_step2_form_payment_input_fields_section .payment_cancellation_policy_div{
+    font-weight: bold;
+}
+
+.payment_cancellation_policy_div .payment_cancellation_policy_second_row{
+    font-weight: normal;
+}
+
+.popup_book_step2_content_wrapper .popup_contact_buttons_div .popup_book_step2_agree_with_terms_div{ 
+    float: left;
+    font-size: 10px;
+            
+}
+
+.popup_book_step2_agree_with_terms_div .popup_book_step2_agree_with_terms_label{
+    float: left;
+    padding-left: 3px;
+    padding-top: 2px;
+    width: 310px;
+}
+
+.popup_book_step2_agree_with_terms_div .terms_link{
+    color: #0033FF;   
+    cursor: pointer;
+}
+
+
+
+
+.book_step2_form_wrapper .input_xlarge{
+    width: 218px;
+}
+
+.book_step2_form_wrapper .input_xxlarge{
+    width: 224px;
+}
+
+.book_step2_form_wrapper .input_large{
+    width: 161px;
+}
+
+.book_step2_form_wrapper .input_medium{
+    width: 150px;
+}
+
+.book_step2_form_wrapper .input_small{
+    width: 80px;
+}
+
+.book_step2_form_wrapper .input_xsmall{
+    width: 65px;
+}
+
+.book_step2_form_wrapper .input_xxsmall{
+    width: 43px;
+}
+/******* Popup Book Step2 END ********/
+
+
+
+
+
+/******* Bottom Buttons (popup) ********/
+ .popup_contact_owner_content_wrapper .popup_contact_buttons_div{
+    margin-top: 10px; 
+}
+
+.popup_book_step2_content_wrapper .popup_contact_buttons_div{
+    margin: 10px 10px 5px 10px; 
+}
+
+.popup_window_search_result .popup_contact_buttons_div .popup_contact_buttons_wrapper{
+    float: right;    
+}
+
+.popup_contact_buttons_div .popup_close_btn{
+    position: relative;
+    cursor: pointer;
+    color: #0033FF;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+    background: url(../img/close_popup_white_small.png) right center no-repeat; padding-right: 20px; position: relative; top: 9px;
+}
+
+.popup_book_step2_submit_btn[disabled]{
+box-shadow: none; cursor: not-allowed; opacity: 0.65; pointer-events: none;
+}
+
+.popup_contact_buttons_div .popup_submit_btn,
+.popup_contact_buttons_div .popup_book_step2_submit_btn{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 33px;
+     
+    text-align: center;
+    padding: 6px 15px 6px 0;
+     
+}
+
+.popup_contact_buttons_div .popup_submit_btn{
+    float: left; 
+    width: 176px;   
+    background: url("../img/result_view/btn_white_arrow_icon.png") no-repeat 157px 9px #98C94F;
+}
+.popup_contact_buttons_div .popup_book_step2_submit_btn{
+    float: right;
+    position: relative;
+    width: 201px;
+    background: url("../img/result_view/btn_white_arrow_icon.png") no-repeat 185px 10px #98C94F;
+}
+
+
+/************************************************/
+/************* Popup Window END *****************/
+/************************************************/
+
+
+
+
+
+
+
+
+/************************************************/
+/******** Popup Privacy policy START ************/
+/************************************************/
+
+
+.popup_window_privacy{
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%; 
+}
+
+.popup_window_privacy .popup_window_privacy_back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background: white;
+    opacity: 0.7; 
+    top: 0;
+    left: 0;
+}
+ 
+.popup_window_privacy .popup_window_privacy_wrapper{ 
+    position: relative;
+    z-index: 2000;  
+    
+    border: 1px solid #11395E;
+    
+    box-shadow: 0 0 10px 2px #5e5e5e; 
+    -webkit-box-shadow: 0 0 10px 2px #5e5e5e;
+    
+    background-color: #EDEDED;
+    background-image:-moz-linear-gradient(left,#efeff0,#e4e5e6); 
+    background-image:-webkit-gradient(linear,left,#efeff0,#e4e5e6);
+    background-image:-webkit-linear-gradient(left,#efeff0,#e4e5e6);
+    background-image:-o-linear-gradient(left,#efeff0,#e4e5e6);
+    background-image:-ms-linear-gradient(left,#efeff0,#e4e5e6);
+    background-image:linear-gradient(left,#efeff0,#e4e5e6);
+} 
+
+.popup_window_privacy .popup_window_privacy_wrapper{
+    margin: -310px 0 0 -352px;
+    width: 697px;
+    height: 695px;
+} 
+
+.iframe_res .popup_window_privacy .popup_window_privacy_wrapper{ 
+    margin: -310px 0 0 -253px;
+    width: 504px;
+    height: 695px;
+}
+
+.popup_window_privacy_wrapper .popup_heading_with_close_div{
+    height: 125px;
+} 
+
+.popup_heading_with_close_div .popup_privacy_close_div{
+    margin: 0 18px 0 0;
+    padding-top: 18px;
+}
+
+.popup_privacy_close_div .popup_privacy_close_btn{
+    width: 21px;
+    height: 21px;
+    float: right;
+    background: url("../img/popup_small_close_btn.png") no-repeat 0 0 transparent;
+    cursor: pointer;
+    
+}
+
+.popup_heading_with_close_div .popup_privacy_heading_div{
+   /* margin-top: 15px; */
+    text-align: center;
+    margin-right: 30px;    
+}
+
+.popup_privacy_heading_div .logo_center_img{
+    border: 0;
+}
+
+
+.popup_window_privacy .popup_privacy_content_wrapper {
+    overflow-y: scroll;
+    background: #FFFFFF;
+    margin: 0 auto;
+    color: #003960;
+    font-size: 13px;
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper {
+    width: 650px;
+    height: 510px;
+}
+
+.iframe_res .popup_window_privacy .popup_privacy_content_wrapper {
+    width: 460px;
+    height: 510px;
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper .popup_content_div{
+    padding: 10px 14px; 
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv{
+    font-size: 12px; 
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv h4{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv a,
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv a:active,
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv a:visited,
+.popup_window_privacy .popup_privacy_content_wrapper #popupPrivacyContentDiv a:focus{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0033FF;
+}
+
+
+.popup_window_privacy .popup_privacy_content_wrapper .popup_content_div .step2_popup_channel_terms_list_table{
+    width: 100%;
+    
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper .popup_content_div .step2_popup_channel_terms_list_table td{
+    text-align: center; 
+}
+
+.popup_window_privacy .popup_privacy_content_wrapper .popup_content_div .step2_popup_channel_terms_list_table a{
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+
+
+/************************************************/
+/******** Popup Privacy policy END **************/
+/************************************************/
+
+
+
+/************************************************/
+/******** Popup Rental agreement START **********/
+/************************************************/
+
+
+.popup_rental_agreement{
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%; 
+    color: #003960;
+    font-size: 13px;
+}
+
+.popup_rental_agreement .popup_rental_agreement_back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    /*
+    background: black;
+    opacity: 0.8; 
+    */
+    background: white;
+    opacity: 0.7; 
+
+    top: 0;
+    left: 0;
+}
+
+.popup_rental_agreement .popup_rental_agreement_wrapper{ 
+    position: relative;
+    z-index: 2000;  
+    border: 1px solid #11395E;
+    box-shadow: 0 0 10px 2px #5e5e5e; 
+    -webkit-box-shadow: 0 0 10px 2px #5e5e5e;
+    background-color: #FFFFFF;
+} 
+
+.popup_rental_agreement .popup_rental_agreement_wrapper{
+    margin: -310px 0 0 -352px;
+    width: 697px;
+    /*height: 695px;*/
+} 
+
+.iframe_res .popup_rental_agreement .popup_rental_agreement_wrapper{ 
+    margin: -310px 0 0 -253px;
+    width: 504px;
+    /*height: 695px;*/
+}
+
+.popup_rental_agreement_heading{
+    height: 45px;
+    
+    background-color: #002e7f;
+    background-image:-moz-linear-gradient(top,#00356c,#002a89); 
+    background-image:-webkit-gradient(linear,top,#00356c,#002a89);
+    background-image:-webkit-linear-gradient(top,#00356c,#002a89);
+    background-image:-o-linear-gradient(top,#00356c,#002a89);
+    background-image:-ms-linear-gradient(top,#00356c,#002a89);
+    background-image:linear-gradient(top,#00356c,#002a89);
+}
+
+.popup_rental_agreement_heading .popup_rental_agreement_heading_text{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 0 0 15px;
+    float: left;
+}
+
+.popup_rental_agreement_heading .popup_rental_agreement_close_btn{
+    float: right;
+    height: 19px;    
+    width: 19px; 
+    margin: 12px 15px 0 0; 
+    cursor: pointer;
+    border-radius: 5px;  
+    border: 1px solid #000000;
+    
+    background: url("../img/close_popup_rental_agreement.png") no-repeat 0 0 #00173f;
+}
+
+.popup_rental_agreement_content_wrapper{
+    padding: 15px;
+    color: #003960;
+}
+
+.popup_rental_agreement_title{
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.popup_rental_agreement_summary_content{
+    background-color: #D9EDF9;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+}
+
+.popup_rental_agreement_summary_content .popup_rental_content_one_row{
+    width: 210px;
+    float: left;
+}
+
+.popup_rental_agreement_summary_content .popup_rental_content_last_row{
+    width: 226px;
+    float: left;
+}
+
+.popup_rental_agreement_summary_content .popup_rental_content_subtitle{
+    font-weight: bold;
+}
+
+.popup_rental_agreement_summary_content .popup_rental_content_regular_row{
+    
+}
+
+.popup_rental_agreement .popup_rental_agreement_cancellation_policy{
+    
+    
+}
+
+.popup_rental_agreement_agreement_div{
+    margin-top: 20px;   
+}
+
+.popup_rental_agreement_agreement_div .popup_rental_agreement_agreement_content_wrapper{
+    height: 70px;
+    border: 1px solid #0286D7;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.popup_rental_agreement_agreement_div .popup_rental_agreement_agreement_content{
+    padding: 10px;    
+}
+
+.popup_rental_agreement .popup_rental_bottom_div{
+    background-color: #D9EDF9; 
+   /* height: 80px;    */
+}
+
+
+.popup_rental_bottom_div .popup_rental_print_btn{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 33px;
+     
+    text-align: center;
+    padding: 6px 20px 6px 20px;
+    float: right;
+    /*width: 161px;*/
+    background-color: #98C94F;
+    margin: 20px 15px;
+}
+
+
+
+@media print {
+    /*
+    .popup_rental_agreement{
+        height: 100% !important;
+        width: 100% !important;
+        background-color: white !important;    
+    }
+    
+    .popup_rental_agreement .popup_rental_agreement_wrapper{
+        height: 100% !important;
+        width: 100% !important;
+        background-color: white !important;
+    }
+    */
+    
+    /*
+    #searchPage, #resultViewPage, #popup_window_book_step2{
+        display: none;
+    }
+    */
+    
+    
+    #popupRentalAgreementContentForPrint{
+        background-color: white !important;
+        height: 100% !important;
+        width: 100% !important;  
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+    
+    .popup_rental_agreement_content_wrapper {
+        font-size: 14px;
+        line-height: 18px;        
+    }
+    
+    .popup_rental_agreement_agreement_content_wrapper{
+        height: auto !important;
+    }
+    
+    
+}
+
+
+/************************************************/
+/******** Popup Rental agreement END ************/
+/************************************************/
+
+  
+  
+  
+ 
+/*****************************************************************/
+/*************  Custom Select Dropdown START ********************/
+/*****************************************************************/
+ 
+.wstylized_select_field{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;  
+    font-weight: bold;
+    
+    border: 1px solid #D5D5D7;
+    border-radius: 4px;
+    color: #003960;
+ }
+ 
+.contact_pearson_number_div .wstylized_select_field{
+    font-size: 12px;
+    width: 47px;
+    height: 20px;    
+    float: left;   
+    background: url("../img/popup_person_number_contact_select_field_arrow_bcg.png") no-repeat 20px 0px #ffffff;
+    
+}
+
+.book_person_number_row .wstylized_select_field{
+    font-size: 14px;
+    width: 47px;
+    height: 25px;    
+    float: left;   
+    background: url("../img/popup_person_number_book_select_field_arrow_bcg.png") no-repeat 24px -1px #ffffff;
+    margin-right: 10px;
+}
+
+.wstylized_select_field .wstylized_select_showed_field{
+    text-align: center;
+    display: block;
+    height: 100%;    
+    cursor: pointer;              
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.contact_pearson_number_div .wstylized_select_field .wstylized_select_showed_field{
+    padding: 1px 25px 1px 1px;
+}
+
+.book_person_number_row .wstylized_select_field .wstylized_select_showed_field{
+    padding: 2px 24px 2px 1px;
+}
+
+.wstylized_select_field .wstylized_search_field_list{
+    position: inherit;
+    top: 1px;
+    z-index: 5;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+    /*border: 2px solid #E5E5E5;*/
+    border: 1px solid #D5D5D7;
+    display: none;
+}
+
+.wstylized_select_field.open .wstylized_search_field_list{
+    display: block;  
+    width: 44px;  
+}
+
+
+.wstylized_select_field .wstylized_search_field_list li{
+    display: block;
+    padding: 1px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+.wstylized_select_field .wstylized_search_field_list li:hover,
+.wstylized_select_field .wstylized_search_field_list li.wselected_option,
+.wstylized_select_field .wstylized_search_field_list:hover li.wselected_option:hover{
+    background-color: rgba(0,56,95,0.5);
+    color: #FFFFFF;
+}
+
+.wstylized_select_field .wstylized_search_field_list:hover li.wselected_option{
+    background-color: #FFFFFF;  
+    color: #003960; 
+}
+
+/* Callendar css */
+.datepicker{display:inline-block;font:15px/1.5 "Helvetica Neue", mplus-2c, Helvetica, Arial, "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;font-weight:300;border:1px solid #dfdfdf;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;box-shadow:.5px .5px 0 #c8c8c8;-webkit-box-shadow:.5px .5px 3px #eee;-moz-box-shadow:.5px .5px 3px #eee}
+.datepicker > .datepicker_header{background-color:#eee;color:#3f3f3f;text-align:center;font-size:9pt;font-weight:700;user-select:none;-webkit-user-select:none;-moz-user-select:none;padding:2px 5px}
+.datepicker > .datepicker_header > a{user-select:none;-webkit-user-select:none;-moz-user-select:none;cursor:pointer;color:#3b7796}
+.datepicker > .datepicker_header > a:hover{color:#303030;background-color:#c8c8c8}
+.datepicker > .datepicker_header > span{margin-left:20px;margin-right:20px;user-select:none;-webkit-user-select:none;-moz-user-select:none}
+.datepicker > .datepicker_header > .icon-home{position:absolute;display:block;float:left;margin-top:2px;margin-left:5px;width:11pt;height:11pt;vertical-align:middle}
+.datepicker > .datepicker_header > .icon-home > svg > g > path{fill:#3b7796}
+.datepicker > .datepicker_header > a:hover > svg > g > path{fill:#303030}
+.datepicker > .datepicker_inner_container{background-color:#d2d2d2;border:1px solid #c8c8c8;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;box-shadow:.5px 0 3px #c8c8c8;-webkit-box-shadow:.5px 0 3px #c8c8c8;-moz-box-shadow:.5px 0 3px #c8c8c8;margin:-2px 0}
+.datepicker > .datepicker_inner_container:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.datepicker > .datepicker_inner_container > .datepicker_calendar{float:left;width:auto;margin-top:-.5px;margin-left:-1px;margin-bottom:-2px;background-color:#fff;border:1px solid #c8c8c8;border-top:none;border-top-left-radius:3px;border-bottom-left-radius:3px;-webkit-border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-topleft:3px;-moz-border-radius-bottomleft:3px}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > table{padding:10px}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > th{color:#646464;width:18px;font-size:small;font-weight:400;text-align:center}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td{color:#000;font-size:small;text-align:center;user-select:none;-webkit-user-select:none;-moz-user-select:none;cursor:pointer}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.today{border-bottom:#bfbfbf solid 2px;margin-bottom:-2px}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sat{color:#04a}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sun{color:#e13b00}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_another_month{color:#ccc}
+.datepicker > .datepicker_inner_container > .datepicker_timelist{float:left;width:4.2em;height:118px;margin-top:-.5px;overflow:auto;overflow-x:hidden;background-color:#fff;border-top-right-radius:3px;border-bottom-right-radius:3px;-webkit-border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px;padding:5px 0}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar{overflow:hidden;width:6px;background:#fafafa;border-top-right-radius:3px;border-bottom-right-radius:3px;-webkit-border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar:horizontal{height:1px}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-button{display:none}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-thumb{background:#aaa;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-corner{background:#333}
+.datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item{margin-top:5px;margin-bottom:2px;font-size:small;user-select:none;-webkit-user-select:none;-moz-user-select:none;cursor:pointer;padding:1px 25px 1px 7px}
+.datepicker > .datepicker_header > a:active,.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.active,.datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.active{color:#fff;background-color:gray}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_in_past,.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_in_unallowed,.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.out_of_range,.datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.time_in_past,.datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.out_of_range{cursor:default;color:#ccc}
+.datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.hover,.datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.hover{color:#000;background-color:#c8c8c8}
+.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece,.datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece:start{background:#eee}
+
+ 
+/*****************************************************************/
+/*************  Custom Select Dropdown END **********************/
+/*****************************************************************/
+
+#bookAgreeWithTermsError{float: left; margin: 3px; padding: 1px; border: solid 1px #FFF; background: #FFF;
+-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border-top-width: 1px; border-left-width: 1px;}
+#bookAgreeWithTermsError input{margin: 0px;}
+#bookAgreeWithTermsError.error{border: solid 1px #F00; background: #F00;}
+
+.popup_book_step3_content_wrapper .heading{font-size: 20px; font-weight: bold; margin-top: 0px;}
+.popup_book_step3_content_wrapper .confirm_list{padding-left: 20px;}
+.popup_book_step3_content_wrapper .confirm_list a{color: #00a4fd;}
+.popup_book_step3_content_wrapper .round-box{padding: 8px 20px 20px; border: solid 1px #000;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;}
+.popup_book_step3_content_wrapper .round-box > p{font-size: 16px;}
+.popup_book_step3_content_wrapper .round-box th{text-align: left; padding-right: 20px;}
+.popup_book_step3_content_wrapper .round-box .trp small{display: block;}
+.popup_book_step3_content_wrapper .round-box table{border-collapse: collapse;}
+.popup_book_step3_content_wrapper .round-box td, .popup_book_step2_content_wrapper .round-box th{border-bottom: solid 1px #ccc; padding-top: 6px; padding-bottom: 6px;}
+.popup_book_step3_content_wrapper .round-box tr:last-child th, .popup_book_step2_content_wrapper .round-box tr:last-child td{border-bottom: none;}
+.popup_book_step3_content_wrapper .round-box .green{color: #98cc44;}
+
+input:required{box-shadow:none;}
+
+
+#popup_window_book_step2 .plchldr{font-style: italic; color: #aeaeae;}
+
+.nano {
+    position : relative;
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+    margin: 0 15px;
+    padding: 20px 0 15px;
+}
+.nano > .nano-content {
+    position      : absolute;
+    overflow      : scroll;
+    overflow-x    : hidden;
+    top           : 0;
+    right         : 0;
+    bottom        : 0;
+    left          : 0;
+}
+.nano > .nano-content:focus {
+    outline: thin dotted;
+}
+.nano > .nano-content::-webkit-scrollbar {
+    visibility: hidden;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+    visibility: visible;
+}
+.nano > .nano-pane {
+    background : rgba(0,0,0,.25);
+    position   : absolute;
+    width      : 10px;
+    right      : 0;
+    top        : 0;
+    bottom     : 0;
+    visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : .01;
+    -webkit-transition    : .2s;
+    -moz-transition       : .2s;
+    -o-transition         : .2s;
+    transition            : .2s;
+    -moz-border-radius    : 5px;
+    -webkit-border-radius : 5px;
+    border-radius         : 5px;
+}
+.nano > .nano-pane > .nano-slider {
+    background: #444;
+    background: rgba(0,0,0,.5);
+    position              : relative;
+    margin                : 0 1px;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+    visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : 0.99;
+}
+
+.nano{margin-left: 0px;}
+.nano .nano-content { padding: 0px 0px 0px 0px; }
+.nano .nano-pane   {background: #33529f;}
+.nano .nano-slider {background: #111;}

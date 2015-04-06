@@ -1,0 +1,146 @@
+.main-black-heading {
+	padding: 90px 0 50px;
+}
+.navbar.navbar-default {border-bottom: 1px solid #d9d9d9;}
+.main-info p {
+	font-size: 24px;
+	margin-bottom: 85px;
+}
+.main-heading-block {
+	height: 450px;
+	background: url("../../img/frontend/sub-career-main_v3.jpg") no-repeat  center center;
+}
+.categories ul li a {font-size: 24px;}
+.categories ul li {padding-top: 8px;}
+.categories ul {
+	list-style: none;
+	padding: 0;
+}
+.categories .request-info-link {
+	margin: 80px 0 40px;
+}
+.positions-heading {
+	font-size: 48px;
+	padding: 35px 0 10px;
+}
+.vacancies {
+	max-width: 1200px;
+}
+.vacancies-wrapper {
+	background: #8aaee0;
+	padding: 60px 0 40px;
+	margin-bottom: 600px;
+}
+.zero-calc {
+	color: #999;
+}
+.vacancy {
+	background: #fff;
+	padding: 17px 40px 70px;
+	/*margin-bottom: 30px;*/
+	margin: 0 5px 30px;
+}
+.vacancy-heading {
+	font-size: 36px;
+}
+.vacancy-info {
+	margin: 35px 0 45px;
+	font-size: 18px;
+
+}
+.positions {
+	font-size: 18px;
+	margin-bottom: 165px;
+}
+.position {
+	padding: 20px 0;
+	border-bottom: 1px solid #d9d9d9;;
+}
+.btn-apply {
+	font-size: 18px;
+	padding: 5px 21px;
+	border-radius: 0;
+	background: #99cb50;
+	border-color: #99cb50;
+	color: #fff;
+}
+.vacancy-calc {
+	font-size: 18px;
+}
+.positions-table p{ margin: 0;}
+.positions-table thead tr th,
+.positions-table tbody tr td {
+	padding: 7px 10px;
+	vertical-align: middle ;
+}
+.positions-table thead tr th {
+	padding-bottom: 15px;
+}
+.positions-table tbody tr {
+	border-bottom: 1px solid #d9d9d9;
+}
+.vacancy a {
+	text-decoration: none;
+}
+
+/*SUB_FORM*/
+
+.container.apply-main {
+	max-width:760px;
+}
+.apply-header {
+	margin: 40px 0;
+}
+.apply-main-heading {
+	margin: 0;
+}
+.required-point {
+	color: #d9534f;
+}
+.form-list {
+	margin: 7px 0 0;
+	padding: 0;
+}
+.form-list li {
+	display: inline;
+	margin-top: 7px;
+}
+.form-list li  a{
+	padding-right: 7px;
+}
+.form-main-block {
+	padding-bottom: 40px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.form-bottom-block {
+	padding-top: 40px;
+}
+.form-bottom-block .form-group label {
+	text-align: left;
+}
+.btn-apply-submit {
+	margin-top: 40px;
+	padding: 4px 25px;
+	border-radius: 10px;
+	background: #428bca;
+	color: white;
+}
+.btn-apply-submit:hover {
+	color: white;
+}
+.file-input.form-control  {
+	display: none;
+}
+.attach-link {
+	margin-top: 7px;
+	display: inline-block;
+}
+.attach-link.wrong-type:hover,
+.attach-link.wrong-type {
+	color: #d9534f;
+	font-weight: 400;
+}
+
+
+
+

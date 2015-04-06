@@ -1,0 +1,39 @@
+.press-info {
+	display: block;
+	margin-bottom: 40px;
+	color: #666;
+
+}
+.navbar.navbar-default {border-bottom: 1px solid #d9d9d9;}
+.press-info:hover {
+	color: #666;
+}
+.press-main {
+	max-width: 960px;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+.press-heading {
+	color: #666;
+	margin: 0;
+	padding: 15px 0 25px;
+}
+.press-release {
+	background: #f5f5f5;
+	padding: 0 30px 30px;
+	margin-top: 75px;
+	border: 1px solid #dce0e0;
+
+}
+.press-body {
+	background: #fff;
+	border: 1px solid #dce0e0;
+	padding: 30px;
+}
+.contact-link {
+	color: #99CB4B;
+}
+.press-logo {
+	height: 45px;
+	margin-bottom: 10px;
+}

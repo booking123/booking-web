@@ -1,0 +1,82 @@
+.buttons-block {
+    padding: 45px 35px 45px 35px;
+    background: #5a605b;
+}
+.messages-tabs {max-width: 620px;}
+.messages-tabs .messages-tab:first-child {
+    padding: 4px 29px;
+    margin-left: 0;
+}
+.messages-tabs .messages-tab {
+    padding: 4px 14px;
+    margin-left: 10px;
+    border-radius: 0;
+    background: #5a605b;
+    color: white;
+}
+.messages-tabs .messages-tab:active,
+.messages-tabs .messages-tab:hover{
+    background: #ffffff;
+    color: #5a605b;
+}
+.messages-table .table-style {margin: 20px 0 45px;}
+.messages-table table {margin-bottom: 0}
+.messages-table table tr td {padding: 18px 0}
+.messages-table table tr td:first-child {padding-left: 20px}
+.messages-table table tr td:last-child {padding-right: 20px}
+.messages-table table tr td {
+    font-size: 16px;
+    color: #000;
+    font-weight: 100;
+    vertical-align: middle;
+    text-align: center;
+}
+.messages-table table tr:nth-child(even) {background: #f8f8f8}
+.messages-table table tr:first-child td {border-top: 0;}
+.messages-table p {margin: 0 0 5px;}
+.messages-table .booking-price {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.messages-table .message-status{
+    width: 25px;
+    height: 25px;
+	background: url(../../../img/admin/pm/message_unactive.png) 0 0;
+    display: block;
+    margin: 0 auto;
+}
+.messages-table tr:hover .message-status,
+.messages-table tr:active .message-status{background: url(../../../img/admin/pm/message_active.png) 0 0;}
+.messages-table .booking-info {color: #a6a6a6;}
+.messages-table .label-block {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 14px;
+	border-radius: 0;
+	font-weight: 100;
+}
+.messages-table .inquiry-label{border: 1px solid #f0ad4e; color: #f0ad4e}
+.messages-table .pre-approved-label{border: 1px solid #5cb85c; color: #5cb85c}
+.messages-table .message-delete {
+    width: 16px;
+    height: 20px;
+	background: url(../../../img/admin/pm/busket.png) 0 0;
+}
+.messages-table .active-message h4 {font-weight: 500;}
+.messages-table  h4 {font-weight: 100}
+@media (max-width: 991px) {
+	.messages-table .label-block {
+		padding: 1px 4px;
+		font-size: 13px;
+	}
+	.messages-tabs {max-width: 480px;}
+	.messages-tabs .messages-tab:first-child {padding: 2px 14px;}
+	.messages-tabs .messages-tab {
+		font-size: 12px;
+		padding: 2px 8px;
+		margin-top: 10px;
+	}
+}

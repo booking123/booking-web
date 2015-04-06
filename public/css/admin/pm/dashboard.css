@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+	html, body {height: 100%;}
+	.page-wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -100px;
+	}
+	.footer.content-block-wrapper, .push {
+		height: 100px;
+		padding: 20px 50px;
+	}
+	.footer.content-block-wrapper,
+	.footer p {margin: 0;}
+	.main-content,
+	.main-content .row,
+	.main-content .row .right-block,
+	.main-content .row .right-block .tables-block {height: 100%}
+}

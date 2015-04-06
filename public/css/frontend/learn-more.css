@@ -1,0 +1,18 @@
+.main-heading-block {
+	height: 350px;
+	background: url("../../img/frontend/learn-more-main.jpg") no-repeat  center bottom / cover;
+}
+.learn-more-main {
+	max-width: 1040px;
+	padding-bottom: 185px;
+}
+.main-black-heading {
+	padding: 75px 0 45px;
+}
+.learn-more-info {
+	font-size: 24px;
+}
+.learn-more-heading {
+	font-size: 36px;
+	margin: 55px 0 30px;
+}

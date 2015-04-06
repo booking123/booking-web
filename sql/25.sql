@@ -1,0 +1,1 @@
+ALTER TABLE `razor`.`channel_partner` ADD COLUMN `phone` varchar(50) AFTER `selected`, ADD COLUMN `email` varchar(255) AFTER `phone`, ADD COLUMN `office_address` varchar(255) AFTER `email`, ADD COLUMN `description` text AFTER `office_address`;

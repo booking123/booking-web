@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('ProximaNova-Black.eot'); /* IE9 Compat Modes */
+  src: url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ProximaNova-Black.woff') format('woff'), /* Modern Browsers */
+       url('ProximaNova-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ProximaNova-Black.svg#5216c1cacb478b35a513d81c80dc8ad7') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('ProximaNova-RegItalic.eot'); /* IE9 Compat Modes */
+  src: url('ProximaNova-RegItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ProximaNova-RegItalic.woff') format('woff'), /* Modern Browsers */
+       url('ProximaNova-RegItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ProximaNova-RegItalic.svg#77f1c682604b6b0472d490a8e6c22d18') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+

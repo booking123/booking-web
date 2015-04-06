@@ -1,0 +1,47 @@
+.main-heading-block {
+	height: 450px;
+	background: url("../../img/frontend/events-conf-main_v3.jpg") no-repeat  center center / cover;
+}
+.conf-events-list {
+	max-width: 600px;
+	margin-top: 30px;
+}
+.main-black-heading {
+	padding: 70px 0 40px;
+	font-size: 36px;
+}
+.conf-events-list.unactive {margin-bottom: 120px;}
+.conf-events-date {
+	font-size: 24px;
+	border-right: 5px solid #99cb50;
+}
+.conf-events-address {
+	font-size: 24px;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.conf-events-list p{
+	margin-bottom: 0px;
+
+}
+.conf-event {
+	margin-bottom: 20px;
+}
+.conf-event a {
+	color: #333;
+}
+.conf-events-date .day {
+	font-size: 36px;
+}
+.active .conf-events-name,
+.active .conf-events-date {
+	color: #99cb50;
+}
+.unactive .conf-events-place,
+.unactive .conf-events-name,
+.unactive .conf-events-date {
+	color: #aaa;
+}
+.unactive  .conf-events-date {
+	border-right: 5px solid #aaa;
+}

@@ -1,0 +1,54 @@
+.main-black-heading {
+	padding: 50px 0;
+}
+.newsletter-main {
+	max-width: 760px;
+}
+.navbar.navbar-default {border-bottom: 1px solid #d9d9d9;}
+.newsletter-block {
+	padding: 15px;
+	height: 150px;
+	margin: 0 5px 40px;
+}
+.newsletter-info {
+	font-size: 18px;
+	color: #fff;
+	margin: 0;
+}
+.newsletter-heading {
+	font-size: 18px;
+	color: #fff;
+	display: block;
+}
+/*.newsletter-info,*/
+/*.newsletter-heading {*/
+	/*text-shadow:*/
+	/*0 4px 3px rgba(0,0,0,0.4),*/
+	/*0 8px 13px rgba(0,0,0,0.1),*/
+	/*0 18px 23px rgba(0,0,0,0.1);*/
+/*}*/
+.newsletter-heading:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.vol1-issue1 {
+	background: url("../../img/frontend/newfrontend/newsletter-image1_v2.jpg") no-repeat center / cover;
+}
+.vol1-issue2 {
+	background: url("../../img/frontend/newfrontend/newsletter-image2_v2.jpg") no-repeat center / cover;
+}
+.vol1-issue3 {
+	background: url("../../img/frontend/newfrontend/newsletter-image3_v2.jpg") no-repeat center / cover;
+}
+.vol1-issue4 {
+	background: url("../../img/frontend/newfrontend/newsletter-image4_v2.jpg") no-repeat center / cover;
+}
+.vol1-issue5 {
+	background: url("../../img/frontend/newfrontend/newsletter-image5_v2.jpg") no-repeat center / cover;
+}
+.vol1-issue6 {
+	background: url("../../img/frontend/newfrontend/newsletter-image6.png") no-repeat center / cover;
+}
+.newsletter-main {
+	padding-bottom: 70px;
+}

@@ -1,0 +1,55 @@
+.main-heading-block {
+	height: 350px;
+	background: url("../../img/frontend/contact-us-main.png") no-repeat  center bottom / cover;
+}
+
+.main-black-heading {
+	color: #333;
+	padding-top: 80px;
+	padding-bottom: 65px;
+}
+.main-info p {
+	font-size: 24px;
+	margin: 0 0 40px;
+}
+.contact-us-placement {
+	max-width: 1040px;
+	margin-bottom: 160px;
+	margin-top: 100px;
+}
+.popover {
+	display: block;
+	/*width: 100%;*/
+	max-width: 300px;
+	position: inherit;
+	border: 0;
+	padding: 0;
+	box-shadow: none;
+}
+.contact-us-map {
+	max-width: 300px;
+	margin-top: 55px;
+	background: url("../../img/frontend/sub-access/map-1.png") no-repeat;
+	height: 300px;
+	margin-bottom: 50px;
+}
+.popover-content {
+	height: 175px;
+	background: #eff3f9;
+	padding: 25px 20px;
+}
+.popover.top .arrow:after {
+	bottom: -18px;
+	margin-left: -28px;
+	content: " ";
+	border-top-color: #eff3f9;
+	border-bottom-width: 0;
+}
+
+.popover > .arrow:after {
+	content: "";
+	border-width: 30px;
+}
+.popover-content p {
+	font-size: 18px;
+}

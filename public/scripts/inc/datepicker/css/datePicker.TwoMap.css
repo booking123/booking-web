@@ -1,0 +1,287 @@
+.calendar {
+	display: none;
+	position: absolute;
+	top: 55px; left: 8px;
+	width: 558px;
+	z-index: 100;
+	color: #2d3036;
+	font: 18px 'Open Sans Semmibold', sans-serif
+}
+.calendar a{
+	color: #2d3036;
+	text-decoration: none;
+}
+.calendar a:hover,
+.calendar a:hover{
+	text-decoration: none;
+}
+
+.calendar .dp-popup-inline {
+	height: 160px;
+}
+
+
+
+.calendar .dp-nav-next-year,
+.calendar .dp-nav-prev-year{
+	display: none;
+}
+.calendar div.dp-popup div.dp-nav-prev{
+	top: 16px; left: 10px;
+}
+.calendar div.dp-popup div.dp-nav-next{
+	top: 16px; right: 10px;
+}
+
+.calendar .dp-nav-prev-month,
+.calendar .dp-nav-next-month{
+	display: block;
+	width: 10px; height: 18px;
+	background: url("../images/icons-split-arow.png") no-repeat left top;
+	/* this for big version... */
+	/*width: 13px; height: 24px; background: url("../images/icons-split-arow-big.png") no-repeat left top; - */
+	font-size: 0;
+}
+
+.calendar .dp-nav-next-month{
+	background-position: right top;
+}
+.calendar .dp-nav-prev-month.disabled,
+.calendar .dp-nav-next-month.disabled{
+	opacity: 0.2;
+}
+
+.calendar .dp-applied{
+	margin-right: 5px;
+	float: left;
+	/*border: 1px solid #ccc;*/
+	/*box-shadow: #666 0 2px 3px;*/
+	background: none;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.calendar .dp-applied .dp-popup{
+	padding: 0;
+	width: auto;
+	height: auto;
+	background: #fff;
+}
+
+.calendar .dp-applied h2,
+.calendar .dp-stay h2{
+	background: #b8c1c8;
+	font-size: 16px;
+	font-weight: lighter;
+	height: 48px;
+	line-height: 48px;
+	margin: 0;
+	text-transform: uppercase;
+
+	display: block !important;
+	float: none !important;
+	/*margin: 0;*/
+	/*height: 66px;*/
+	/*background: #2ea2eb;*/
+	/*font: 22px/66px 'Roboto', sans-serif !important;*/
+	color: #fff !important;
+}
+.calendar .dp-applied h2{
+	text-transform: uppercase;
+}
+
+.calendar .dp-stay{
+	padding-bottom: 2px;
+	border: 1px solid #ccc;
+	box-shadow: #666 0 2px 3px;
+	background: #fff;
+	float: left;
+}
+.calendar .dp-stay h2{
+	padding: 0 10px;
+	background: #8fc33d;
+	color: #fff;
+	text-align: center;
+}
+.calendar .dp-stay a{
+	display: block;
+	float: left; clear: both;
+	margin: 5px 10px 5px 3px;
+	padding-left: 17px;
+	height: 15px;
+	line-height: 15px;
+	color: #9d9d9d;
+}
+.calendar .dp-stay a.active{
+	background: url("../images/icon-select-stay.png") no-repeat left center;
+}
+.calendar .dp-stay .separate{
+	float: left; clear: both;
+	margin: 3px 0;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+
+
+.calendar table.jCalendar{
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0;
+	background: none;
+	font-size: 18px;
+}
+
+.calendar table.jCalendar th{
+	/*padding: 0;*/
+	/*height: 55px;*/
+	/*border:  solid #8bcef8; border-width: 1px 0 1px 0;*/
+	/*background: #78c6f7;*/
+	/*font-weight: normal;*/
+	/*text-align: center;*/
+
+	padding: 0;
+	height: 40px;
+	border: none;/*1px solid #f3f4f5;*/
+	background: #f3f4f5;
+	font-weight: bold; font-size: 12px; line-height: 40px;
+	text-align: center;
+	color: #504747;
+}
+.calendar table.jCalendar td{
+	/*padding: 0;*/
+	/*width: 42px; height: 42px;*/
+	/*background: none;*/
+	/*line-height: 42px;*/
+	/*text-align: center;*/
+	/*color: #9d9d9d;*/
+	/*vertical-align: top;*/
+
+	padding: 7px 0;
+	background: none;
+	width: 35px; height: 21px;
+	border: none;/*border: 1px solid #d4d5d6;*/
+	font-size: 13px;
+	cursor: default;
+	/*color: #fff;*/
+}
+.calendar table.jCalendar td span{
+	margin-left: 0; margin-right: 0;
+	position: relative;
+	display: block;
+	width: 100%; height: 21px;
+	line-height: 21px;
+	color: #504747;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+
+.calendar table.jCalendar td.saturday span{
+	font-weight: bold;
+	color: #ff933c;
+}
+
+
+.calendar table.jCalendar td.disabled{
+	opacity: 0.25;
+}
+
+.calendar table.jCalendar td.selected{
+	/*color: #fff;*/
+}
+
+.calendar table.jCalendar td.disabled.is-checked{
+	opacity: 1;
+}
+.calendar table.jCalendar td.is-checked span{
+	background: #75b117;
+}
+.calendar table.jCalendar td.disabled{
+
+}
+.calendar table.jCalendar td.selected-line span{
+	background: #75b117;
+	color: #fff;
+}
+.calendar table.jCalendar td.selected-line.first span{
+	/*margin-left: 5px;*/
+	/*border-radius: 16px 0 0 16px;*/
+}
+.calendar table.jCalendar td.selected-line.last span{
+	margin-left: 0;
+	/*border-radius: 0 16px 16px 0;*/
+}
+
+.calendar table.jCalendar td.today{
+	font-weight: bold;
+}
+
+.calendar table.jCalendar td.selected-line.disabled{
+	opacity: 1;
+}
+
+.calendar table.jCalendar td.dp-hover{
+	background: none;
+}
+
+.calendar table.jCalendar td.other-month{
+	cursor: auto;
+}
+
+/* We use tablet version */
+/*@media (max-width: 991px) {*/
+.calendar{
+	font-size: 13px;
+}
+
+.calendar .dp-applied h2,
+.calendar .dp-stay h2{
+	height: 48px;
+	font: 16px/48px 'Nunito', sans-serif !important;
+	font-weight: 100 !important;
+}
+
+.calendar table.jCalendar th{
+	height: 40px;
+	font-size: 12px;
+	font-family: "Nunito",sans-serif;
+	font-weight: 500;
+}
+.calendar table.jCalendar td{
+	width: 34px; height: 34px;
+	font-size: 13px; line-height: 34px;
+}
+
+.calendar table.jCalendar td.selected-line.first span,
+.calendar table.jCalendar td.selected-line.last span{
+	color: #504747;
+
+}
+.calendar table.jCalendar td span b{
+	position: relative;
+	z-index: 1;
+	font-weight: 600;
+}
+.calendar table.jCalendar td span i{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 60%;
+}
+.calendar table.jCalendar td.selected-line.first span i{
+	border-bottom: 21px solid #fff;
+	border-right: 11px solid transparent;
+	left: 0;
+}
+.calendar table.jCalendar td.selected-line.last span i{
+	border-left: 11px solid transparent;
+	border-top: 21px solid #fff;
+	right: 0;
+
+}
+
+/*}*/
+
+@media (max-width: 768px) {
+	.calendar .calendar-2{
+		display: none;
+	}
+}

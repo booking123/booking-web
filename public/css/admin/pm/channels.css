@@ -1,0 +1,119 @@
+
+.channels-title{
+	background: #99CA50;
+	color: #fff;
+	margin: 0;
+	padding: 15px 20px 20px;
+	font-size: 16px;
+}
+.pm-table.channels th{
+	vertical-align: middle;
+	text-align: center;
+}
+.pm-table.channels th p{
+	font-size: 10px;
+	font-weight: normal;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.channel-logo{
+	width: 140px;
+}
+
+
+/* "Add Channels" content */
+.pm-content.channels .channels-title {
+	background: #99CA50;
+	color: #fff;
+	margin: 0;
+	padding: 15px 20px 20px;
+	font-size: 16px;
+}
+
+.pm-content.channels .pm-table.channels th {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pm-content.channels .pm-table.channels th p {
+	font-size: 10px;
+	font-weight: normal;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.pm-content.channels .pm-reports.nav-tabs {
+	border-bottom-width: 1px;
+	border-bottom-color: #003960;
+}
+
+.pm-content.channels .pm-reports.nav-tabs > li > a {
+	border-radius: 0;
+	color: #003960;
+	font-weight: bold;
+	font-size: 16px;
+	border-color: #0386D6;
+	/*border-bottom-width: 1px;*/
+	padding-top: 5px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.pm-content.channels .pm-reports.nav-tabs > li.active > a {
+	margin-top: 0;
+	padding-top: 10px;
+	border-color: #003960;
+	border-width: 2px;
+	border-bottom-width: 0;
+}
+
+.pm-content.channels .pm-tabs {
+	border: 2px solid #003960;
+	border-top-width: 0;
+	padding: 20px;
+	background: #fff;
+	display: none;
+}
+
+.pm-content.channels .small-info {
+	font-size: 10px;
+	padding: 5px 0 0;
+	margin: 0;
+}
+
+.pm-content.channels .pm-tabs .form-horizontal .reports-wrapper {
+	margin: 10px -20px;
+	background: #BAD9F4;
+	padding: 20px;
+}
+
+.pm-content.channels .pm-tabs .form-horizontal .reports-wrapper label.control-label {
+	font-size: 18px;
+}
+
+.pm-content.channels .pm-tabs .form-horizontal .reports-wrapper .col-sm-8 label {
+	font-weight: normal;
+	margin: 5px 10px 0 0;
+}
+
+.pm-content.channels .pm-channels-info{
+	border: none;
+	width: 31px;
+	height: 34px;
+	background: url("/img/admin/info_btn_img.png");
+	display: inline-block;
+}
+
+.pm-content.channels .separator-bottom {
+	padding-top: 10px;
+	margin: 0;
+	border-bottom: 2px #052A4D dashed;
+}
+.pm-content.channels .channels-submit-box{
+	padding: 15px;
+	font-size: 18px
+}
+.pm-content.channels .channels-submit-box .btn{
+	margin-left: 25px;
+	font-size: 1.2em;
+}

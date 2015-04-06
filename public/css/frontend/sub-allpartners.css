@@ -1,0 +1,26 @@
+.distribution-network {
+	max-width: 1040px;
+	padding-bottom: 175px;
+}
+.allpartners-main {
+	background: #eff3f9;
+}
+.main-black-heading {
+	padding: 70px 0 40px;
+}
+.allpartners-info {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.navbar.navbar-default {border-bottom: 1px solid #d9d9d9;}
+.channel-logo {
+	border: 1px solid #ddd;
+
+}
+.channel-logo-1 {
+	background:  url('../../img/frontend/newfrontend/dist-channels/condo-logo.jpg') no-repeat center / contain;
+}
+.channel-logo a {
+	height: 103px;
+	display: block;
+}

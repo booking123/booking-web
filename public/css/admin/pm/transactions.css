@@ -1,0 +1,128 @@
+.set-reservation-dates{margin:0;}
+.set-reservation-dates .datepicker-input{padding: 0;}
+.btn.btn-submit {margin: 10px 0}
+#resFilterS {margin-bottom: 10px;}
+.toggle-hide-filter{
+	font-size: 14px;
+	color: #fff;
+	margin: 4px 0;
+	letter-spacing: 0.055em;
+	position: absolute;
+	right: 0;
+	top: -22px;
+}
+.toggle-hide-filter span {
+	margin: 0 5px;
+	font-size: 20px;
+}
+.filter-bottom {margin-top: 10px;}
+.toggle-hide-filter:focus,
+.toggle-hide-filter:active,
+.toggle-hide-filter:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.toggle-hide-filter.open-filter span {
+	transform: rotate(45deg);
+	display: inline-block;
+}
+
+/*#modalDetails*/
+.pm-dashboard #modalDetails .modal-dialog {width: 458px;}
+.pm-dashboard #modalDetails .modal-dialog .modal-header {
+	padding: 30px 18px;
+	border-bottom: 0;
+	text-align: center;
+	background: #5a605c;
+}
+.pm-dashboard #modalDetails .modal-dialog .modal-header h4 {
+	font-size: 26px;
+	color: #fff;
+	font-weight: 100;
+}
+#modalDetails .modal-header .close {
+	margin-top: -20px;
+	font-size: 28px;
+	color: #fff;
+}
+.customer-name h2 {
+	margin: 12px 10px 11px 10px;
+	font-size: 20px;
+	font-weight: 100;
+}
+.customer-name {
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 31px;
+	padding-top: 16px;
+}
+.customer-name .status a {
+	padding: 1px 12px;
+	color: #ed9e35;
+	border: 1px solid #ed9e35;
+	font-size: 16px;
+	text-decoration: none;
+}
+.modal-body {padding: 0;}
+.reservation-detail {
+	margin-bottom: 42px;
+	padding: 28px 25px 15px;
+}
+.reservation-detail dl dt,
+.reservation-detail dl dd{display: inline;}
+.reservation-detail dl dt {
+	color: #a7a7a7;
+	width: 175px;
+	font-weight: 100;
+	display: inline-block;
+}
+.reservation-detail dl dd {width: 250px;}
+.reservation-detail dl {margin-bottom: 11px;}
+.modal-link,
+.modal-link:hover,
+.modal-link:active{
+	color: #71a9d8;
+	text-decoration: none;
+}
+.status-block {
+	padding: 4px 20px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.status-block.declined-label,
+.status-block.accepted-label {
+	border: 1px solid #438a20;
+	color: #438a20;
+	text-decoration: none;
+}
+.status-block.inquired-label {
+	border: 1px solid #ef9d37;
+	color: #ef9d37;
+	text-decoration: none;
+}
+.status-block.failed-label {
+	border: 1px solid #e14d4d;
+	color: #e14d4d;
+	text-decoration: none;
+}
+/*.status-block.accepted-label:hover {*/
+	/*background:  #438a20;*/
+	/*color: #fff;*/
+/*}*/
+/*.status-block.inquired-label:hover {*/
+	/*background: #ef9d37;*/
+	/*color: #fff;*/
+/*}*/
+/*.status-block.failed-label:hover {*/
+	/*background:  #e14d4d;*/
+	/*color: #fff;*/
+/*}*/
+#modalDetails .modal-footer {padding: 30px 23px 28px;}
+#modalDetails .modal-footer .btn {width: 49%; margin: 0; font-weight: 100}
+#modalDetails .more-fields-button {margin-top: 10px}
+/*@media (max-width: 768px){*/
+	/*.functional-block .toggle-hide-filter{margin-top: 10px;}*/
+	/*.functional-block .btn.btn-submit.toggle-hide-filter {*/
+		/*position: relative;*/
+		/*top: -38px*/
+	/*}*/
+/*}*/

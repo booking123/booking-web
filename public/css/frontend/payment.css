@@ -1,0 +1,21 @@
+body{color: #003861;}
+.payment{width: 800px; margin: 0px auto 30px;}
+.payment > header{padding: 30px 0px; text-align: center;}
+.payment .row{margin-bottom: 15px}
+.clear{clear: both;}
+.border-block{border: solid 1px #235478; background: #eeeeee; padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;}
+
+
+label{font-size: 12px; font-weight: bold; color: #003960;}
+.col-xs-4 .col-xs-4{padding: 0px 5px;}
+.col-xs-4 .col-xs-4 p{font-size: 10px; text-align: center;}
+.col-xs-12 .checkbox{padding-left: 0px !important;}
+.popup_window_red_input_field{border-color: #f00;}
+
+#bookAgreeWithTermsError{float: left; margin: 3px; padding: 1px; border: solid 1px #EEE; background: #EEE;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border-top-width: 1px; border-left-width: 1px;}
+#bookAgreeWithTermsError input{margin: 0px;}
+#bookAgreeWithTermsError.error{border: solid 1px #F00; background: #F00;}

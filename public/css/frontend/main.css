@@ -1,0 +1,535 @@
+@font-face {
+	font-family: 'segoe_printbold';
+	src: url('fonts/Segoe/6520623946-webfont.eot');
+	src: url('fonts/Segoe/6520623946-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Segoe/6520623946-webfont.woff') format('woff'), url('fonts/Segoe/6520623946-webfont.ttf') format('truetype'), url('fonts/Segoe/6520623946-webfont.svg#segoe_printbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.currency-filter .input-group-addon {
+	height: 40px;
+	border-radius: 5px;
+}
+.currency-filter  .caret {
+	border: 0;
+}
+.currency-filter button {
+	height: 40px;
+	border: 0;
+	background: #e9e9e9  url("../../img/frontend/search/advanced-search-dropdown-arrow.png") no-repeat center center;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .075);
+}
+.currency-filter .btn-default:active,
+.currency-filter .btn-default.active,
+.currency-filter .open > .dropdown-toggle.btn-default {
+	background-image: url("../../img/frontend/search/advanced-search-dropdown-arrow.png") ;
+
+}
+
+.main-searchbox .main-searchbox-wrapper{
+	height: 465px;
+}
+
+
+.main-searchbox h1 {
+	margin-top: 138px; margin-bottom: 0;
+	font-weight: lighter; font-size: 52px;
+	text-shadow: 0 2px 2px #000;
+	color: #fff;
+}
+.main-searchbox h1.searchbox_title {
+	position: relative;
+	margin-top: 116px; margin-bottom: 33px;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+.main-searchbox h1.searchbox_title span {
+	padding-bottom: 8px;
+	background: url('../../img/frontend/temp/text_shape.png') no-repeat bottom; background-size: contain;
+	font-size: 52px; letter-spacing: 0.07em; font-family: segoe_printbold;
+}
+
+
+.main-searchbox .search-slider {
+	position: absolute;
+	width: 100%; height: inherit;
+}
+.main-searchbox .search-slider .ss-slide {
+	visibility: hidden;
+	position: absolute; z-index: auto;
+	width: 100%; height: inherit;
+	background: url("../../img/frontend/temp/slides_bg/unique.jpg") no-repeat scroll center center/ cover;
+}
+.main-searchbox .search-slider .ss-slide.unique_bg {
+	background-image: url("../../img/frontend/temp/slides_bg/unique.jpg");
+}
+.main-searchbox .search-slider .ss-slide.city_bg {
+	background: url("../../img/frontend/temp/slides_bg/city.jpg") no-repeat  ;
+	background-position: center bottom;
+	background-size: cover;
+}
+.main-searchbox .search-slider .ss-slide.swim_bg {
+	background-image: url("../../img/frontend/temp/slides_bg/swim.jpg");
+}
+.main-searchbox .search-slider .ss-slide.golf_bg {
+	background-image: url("../../img/frontend/temp/slides_bg/golf.jpg");
+}
+.main-searchbox .search-slider .ss-slide.ski_bg {
+	background-image: url("../../img/frontend/temp/slides_bg/ski.jpg");
+}
+.main-searchbox .search-slider .ss-slide.beach_bg {
+	background-image: url("../../img/frontend/temp/slides_bg/beach.jpg");
+}
+
+
+.main-searchbox .search-panel-input-box .btn-group button .caret-custom.guests {
+	width: 22px;
+	background-image: url("../../img/frontend/search/icon-people-new.png");
+}
+/*.main-searchbox .search-panel-input-box.datepicker-box .caret-custom {*/
+	/*top: 21px;*/
+	/*width: 15px;*/
+	/*background: url("../../img/frontend/search/icon-calendar-new.png") no-repeat center center;*/
+
+/*}*/
+
+.main-searchbox .search-panel .form-control[readonly]{
+    background-color: #fff;
+    cursor: default;
+}
+
+.main-searchbox .search-panel {
+	margin: 5px auto 0;
+	max-width: 890px; /* 900px */
+	position: relative;
+	background: url(../../img/frontend/search/search-panel-bg.png);
+	padding-bottom: 10px;
+	border-radius: 3px;
+}
+
+.main-searchbox .search-panel .form-control[readonly]{
+    background: #fff url(../../img/frontend/search/icon-calendar-new.png) no-repeat right 10px center;
+
+}
+
+.main-searchbox .search-panel-bottom-line a {
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 0.055em;
+}
+
+
+.main-searchbox .search-panel-wrapper {
+	position: relative;
+	padding: 7px 14px;
+	border-radius: 3px;
+	/*background: url("../../img/frontend/search/search-panel-bg.png") repeat;*/
+}
+.main-searchbox .search-panel-wrapper .calendar .dp-applied h2,
+.main-searchbox .search-panel-wrapper .calendar .dp-stay h2 {
+	background: none repeat scroll 0 0 #2ea2eb;
+}
+.main-searchbox .search-panel-input-box.include-properties {
+	color: #fff;
+}
+.main-searchbox .search-panel-input-box.include-properties label {
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	text-shadow: 0 1px 0 #000;
+}
+.main-searchbox .search-panel-bottom-line a {
+	text-shadow: 0 1px 0 #000;
+	color: #fff;
+	margin-right: 5px;
+}
+
+/* Advanced Menu */
+.advanced-search.search-content-box .container{
+	max-width: 800px;
+}
+
+.advanced-search .as-content {
+	margin: 50px auto 0;
+}
+.advanced-search .as-content .as-content-row{
+	margin-bottom: 30px;
+}
+.advanced-search .as-content .as-options{
+	margin-bottom: 0;
+}
+.advanced-search .as-content .min{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.advanced-search .as-content .max{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.advanced-search .as-content h5,
+.advanced-search .as-content label{
+	margin: 0 0 20px;
+	font-weight: lighter; font-size: 15px;
+	color: #576670;
+}
+.advanced-search .as-content input[type=text]{
+	height: 40px;
+	border-color: #e9e9e9;
+	background-color: #e9e9e9;
+	line-height: 26px;
+}
+/* TODO: Maybe need */
+.advanced-search .as-content .btn-group{
+	width: 100%;
+}
+.advanced-search .as-content .btn-group button{
+	width: 100%; height: 40px;
+	border-radius: 3px; border-color: #e9e9e9;
+	background-color: #e9e9e9;
+	font-weight: lighter; line-height: 26px;
+	text-align: left;
+}
+.advanced-search .as-content .btn-group button:focus{
+	background: #D2D2D2;
+}
+.advanced-search .as-content .btn-group .caret-custom{
+	float: right;
+	width: 13px; height: 26px;
+	background: url("../../img/frontend/search/advanced-search-dropdown-arrow.png") no-repeat center center;
+
+}
+
+.advanced-search .input-group-addon{
+	border-color: #e9e9e9;
+	background-color: #e9e9e9;
+}
+
+.advanced-search .as-checkbox-block{
+	padding: 5px 0 0;
+	list-style: none;
+}
+.advanced-search .as-checkbox-block.row{
+	padding: 0 15px;
+}
+.advanced-search .as-checkbox-block li{
+	padding-left: 20px;
+}
+.advanced-search .as-checkbox-block.row li{
+	padding-left: 28px;
+}
+.advanced-search .as-checkbox-block label{
+	margin-bottom: 5px;
+	color: #8f989e;
+}
+.advanced-search .as-checkbox-block label span{
+	display: inline-block;
+}
+.advanced-search .as-checkbox-block input{
+	float: left;
+	margin-left: -20px;
+	margin-top: 1px;
+}
+
+.advanced-search .advanced-search-buttons {
+	padding: 50px 7px 0;
+}
+.advanced-search .advanced-search-buttons .btn-success{
+	width: 106px; height: 40px;
+	border-radius: 3px;
+	font-weight: lighter; font-size: 18px;
+}
+.advanced-search .advanced-search-buttons .cancel {
+	margin-left: 35px;
+	font-size: 14px;
+	color: #0f436b;
+}
+
+.advanced-search .separate-line-bottom{
+	margin: 0 auto;
+	max-width: 1010px;
+	border-bottom: 1px solid #c2c8cd;
+}
+
+.advanced-search .as-list-amenities h5 a{
+	text-decoration: none;
+	color: #576670;
+	cursor: text;
+}
+
+@media (max-width: 991px) {
+	.main-searchbox .advanced-search .as-content{
+		padding-bottom: 40px;
+	}
+	.advanced-search .advanced-search-buttons{
+		padding-top: 40px;
+	}
+	.main-searchbox .main-searchbox-wrapper{
+		height: 400px;
+	}
+
+	.main-searchbox h1.searchbox_title {
+		margin-top: 70px; margin-bottom: 19px; margin-left: 0;
+		font-size: 38px;
+		letter-spacing: 0;
+	}
+	.main-searchbox h1.searchbox_title span{
+		font-size: 38px;
+		letter-spacing: 0;
+	}
+
+	.main-searchbox .search-panel-wrapper .search-panel-input-box {
+		padding: 5px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-page .main-searchbox .main-searchbox-wrapper{
+		height: 430px;
+	}
+	.main-searchbox .search-panel-input-box.include-properties label {
+		margin-bottom: 0;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.main-searchbox .search-panel-wrapper {
+
+		padding: 7px 14px 0;
+
+	}
+
+	.main-searchbox h1.searchbox_title {
+		margin-top: 5px; margin-bottom: 5px;
+		line-height: 41px; font-size: 24px; letter-spacing: -0.2px;
+	}
+	.main-searchbox h1.searchbox_title span {
+		margin-top: 40px;
+		font-size: 24px;
+	}
+
+	.main-page .main-searchbox .main-searchbox-wrapper h1,
+	.main-page .main-searchbox .main-searchbox-wrapper h1 span{
+		margin-top: 40px;
+		margin-bottom: 19px;
+		font-size: 25px;
+	}
+	.main-page .main-searchbox .include-properties label{
+		font-size: 12px;
+
+	}
+
+	.main-searchbox .search-panel-bottom-line{
+		margin-top: 8px; margin-left: -6px;
+	}
+	.main-searchbox .search-panel-bottom-line .text-right {
+		font-weight: lighter;
+		text-align: left;
+	}
+
+	.main-searchbox .search-panel-input-box {
+		padding: 3px;
+	}
+	.main-searchbox .search-panel-input-box input[type="text"]{
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.main-searchbox .search-panel-input-box.datepicker-box .caret-custom{
+		top: 15px;
+	}
+	.main-searchbox .search-panel-input-box .btn-group button{
+		padding-left: 34px;
+		height: 35px;
+		line-height: normal;
+		text-align: center;
+	}
+	.main-searchbox .search-panel-input-box .btn-group button .caret-custom.guests{
+		margin-top: -3px;
+	}
+	.main-searchbox .search-panel-input-box.include-properties {
+		font-size: 10px;
+		overflow: hidden;
+		max-width: 95%;
+		position: inherit;
+		padding-bottom: 0;
+	}
+	.main-searchbox	  .search-panel-input-box.include-properties input[type="checkbox"]{
+		margin-right: 5px;
+	}
+
+	.main-searchbox .advanced-search-buttons{
+		text-align: center;
+	}
+	.main-searchbox .advanced-search-buttons .btn-success{
+		margin: 0 0 10px;
+	}
+	.main-searchbox .advanced-search-buttons .cancel{
+		margin: 0;
+	}
+
+	.advanced-search .as-content{
+		margin-top: 30px;
+		padding: 0 0 35px;
+	}
+	.advanced-search .as-content .as-content-row{
+		margin-bottom: 20px;
+	}
+	.advanced-search .as-content .as-options{
+		margin-bottom: 20px;
+	}
+	.advanced-search .as-content h5,
+	.advanced-search .as-content .form-group{
+		text-align: center;
+	}
+	.advanced-search .as-list-amenities{
+		margin-bottom: 35px;
+	}
+	.advanced-search .as-list-amenities h5 a:hover{
+		cursor: pointer;
+	}
+	.advanced-search .as-list-amenities .as-checkbox-block{
+		display: none;
+		margin-bottom: 20px;
+	}
+	.advanced-search .as-list-amenities .caret-plus{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.advanced-search .as-list-amenities.active .caret-plus{
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.advanced-search .as-list-amenities.active .as-checkbox-block{
+		display: block;
+	}
+	.main-searchbox .search-panel-bottom-line {
+		margin-left: 10px;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.main-searchbox .search-panel-input-box.include-properties {
+		position: absolute;
+		bottom: -48px;
+		left: -7px;
+		z-index: 1; /* bottom: -30px; */
+		width: auto;
+	}
+}
+
+/* Main search content box */
+.search-content-box {
+	padding-top: 32px; padding-bottom: 78px;
+}
+.search-content-box h2 {
+	margin-bottom: 14px; /* 3px */
+	font-size: 42px;
+	font-weight: lighter;
+	text-align: center;
+	color: #576670;
+}
+.search-content-box h4 {
+	margin-top: 14px;
+	font-size: 17px;
+	font-weight: lighter; /* font-size: 18px; */
+	text-align: center;
+	letter-spacing: 0.038em; /* */
+}
+
+/*	 search content - Locations */
+.wrapper-location-list a {}
+
+.location-list {
+	margin: 50px auto 0;
+}
+.location-list div {
+	padding-top: 20px; padding-bottom: 10px;
+}
+
+.location-list .location-link {
+	position: relative;
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.location-list .location-link img {
+	width: 100%;
+	height: 200px;
+}
+
+.location-list .location-link span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 70px 23px 18px;
+
+	background: url("../../img/frontend/search/location-img-gradient.png") repeat-x center bottom;
+	font-size: 18px;
+	color: #fff;
+}
+
+/*	 search content - Map */
+.wrapper-map-box {
+	padding-bottom: 0;
+	background: #f3f4f5;
+}
+.wrapper-map-box .map-box {
+	max-width: 1070px;
+	margin: 47px auto 0;
+}
+.wrapper-map-box .map-box img {
+	width: 100%;
+}
+
+@media (max-width: 991px) {
+	.search-content-box {
+		padding-top: 30px; padding-bottom: 5px;
+	}
+}
+
+@media (max-width: 767px) {
+	.search-content-box {
+		padding-top: 20px; padding-bottom: 0;
+	}
+	.search-content-box h2 {
+		font-size: 25px;
+	}
+	.search-content-box h4 {
+		font-size: 14px;
+	}
+
+	.location-list {
+		margin-top: 21px;
+	}
+	.location-list .location-link span {
+		padding: 70px 21px 18px;
+		font-size: 16px;
+	}
+	.location-list div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+
+
+.form-control.error, .btn.error{border-color: #F00;}
+
+
+.eu .main-searchbox .searchbox_title span,
+.eu .main-searchbox .searchbox_title br.visible-xs-inline{
+	display: none !important;
+}
+.eu .main-searchbox .main-searchbox-wrapper{
+	background: url("../../img/frontend/temp/search-bg-eu.jpg") no-repeat scroll center center / cover;
+}
+.eu .wrapper-map-box{
+	display: none;
+}

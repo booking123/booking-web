@@ -1,0 +1,42 @@
+.main-heading-block {
+	height: 350px;
+	background: url("../../img/frontend/index/bg3.jpg") no-repeat  center center / cover;
+
+}
+.main-heading {padding: 100px 0 0;}
+h1.main-black-heading {padding: 80px 0 50px;}
+.finance-main {max-width: 1160px;}
+.finance-main-info {
+	padding: 0 60px;
+	font-size: 24px;
+}
+.finance-list {
+	font-size: 16px;
+	margin-top: 50px;
+}
+.finance-list li {margin-bottom: 25px;}
+.finance-list li p {margin-bottom: 0;}
+.finance-main .request-info-link {margin: 80px 0 10px;}
+h2.main-black-heading {
+	padding: 50px 0 110px;
+	font-size: 36px;
+}
+.upper-payment-flow-img {
+	background: url("../../img/frontend/newfrontend/finance-tree1.png") no-repeat  bottom / contain;
+	height: 300px;
+}
+.lower-payment-flow-img {
+	background: url("../../img/frontend/newfrontend/finance-tree2.png") no-repeat  bottom / contain;
+	height: 300px;
+}
+/*.img-describe {*/
+	/*font-size: 24px;*/
+	/*margin-top: 20px;*/
+/*}*/
+.upper-payment-flow .main-black-heading,
+.lower-payment-flow .main-black-heading {padding: 140px 0 80px;}
+.lower-payment-flow {margin-bottom: 165px;}
+.finance-list-heading,
+.finance-list-info {
+	font-size: 24px;
+}

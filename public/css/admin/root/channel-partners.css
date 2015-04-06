@@ -1,0 +1,31 @@
+#pending_transaction_list .change-status-menu .disabled {
+	color: #ccc;
+}
+#cpSettings .checkbox label{
+	padding:  0 15px 0 0;
+}
+#cpSettings .checkbox input{
+	margin-right: 5px;
+}
+#cpSettings .control-label{
+	text-align: left;
+}
+
+#pmSettings .alert,
+#cpSettings .alert{
+	display: none;
+}
+#pmSettings .alert.alert-success,
+#pmSettings .alert.alert-danger,
+#cpSettings .alert.alert-success,
+#cpSettings .alert.alert-danger{
+	display: block;
+}
+
+#exist_channels{
+	display: none;
+	font-size: 12px;
+}
+#settings_name_PM span{
+	font-size: 14px;
+}

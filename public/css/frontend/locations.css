@@ -1,0 +1,33 @@
+.main-heading-block {
+	height: 350px;
+	background: url("../../img/frontend/locations-main.png") no-repeat  center bottom / cover;
+}
+.properties-throughout {
+	font-size: 22px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 6px;
+	margin: 3px;
+
+}
+.locations-main {
+	margin-top: 30px;
+	max-width: 960px;
+}
+.continent-block {
+	margin-bottom: 40px;
+}
+.continent-country {
+	font-size: 18px;
+}
+.right-continents-block {
+	padding-left: 130px;
+}
+.continent-heading {
+	font-size: 48px;
+	margin: 50px 0 10px;
+}
+@media   (max-width:991px) {
+	.right-continents-block {
+		padding-left: 15px;
+	}
+}

@@ -1,0 +1,61 @@
+.set-reservation-dates{margin: 10px 0;}
+.set-reservation-dates .datepicker-input{padding: 0;}
+.btn.btn-submit {margin: 10px 0}
+.set-reservation-dates{margin:0;}
+
+/*.pm-dashboard .main-content .right-block .search-block .search-block-left {padding: 0;}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-left label {*/
+	/*color: #b7b9b7;*/
+	/*font-size: 17px;*/
+	/*font-weight: 400;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-left span {*/
+	/*margin-left: 6%;*/
+	/*margin-top: 20px;*/
+	/*color: #fff;*/
+	/*font-size: 16px;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-left input[type=text] {*/
+	/*width: 80%;*/
+	/*height: 40px;*/
+	/*border-radius: 0;*/
+	/*margin-top: 11px;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right {padding: 0;}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right input[type=text] {*/
+	/*width: 100%;*/
+	/*border-radius: 0;*/
+	/*height: 40px;*/
+	/*padding: 6px 35px 6px 12px;*/
+	/*font-size: 16px;*/
+/*}*/
+
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right .input-block {*/
+	/*position: relative;*/
+	/*width: 38%;*/
+	/*margin-top: 11px;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right label {*/
+	/*vertical-align: middle;*/
+	/*color: #fff;*/
+	/*font-size: 17px;*/
+	/*font-weight: 400;*/
+	/*margin-right: 22px;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right label:first-child {color: #b7b9b7;}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right input[type=checkbox] {margin-right: 10px;}*/
+/*.pm-dashboard .main-content .left-sidebar .left-sidebar-menu {*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*font-size: 16px;*/
+/*}*/
+/*.pm-dashboard .main-content .right-block .search-block .search-block-right a {*/
+	/*margin-top: 13px;*/
+	/*padding: 7px 20px;*/
+	/*font-size: 16px;*/
+	/*color: #fff;*/
+	/*background: #66a3d6;*/
+	/*border-radius: 1px;*/
+	/*border: 0;*/
+/*}*/
+

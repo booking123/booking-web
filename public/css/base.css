@@ -1,0 +1,14 @@
+html,body {height: 100%;}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -120px;
+}
+.navbar-brand{position: absolute; top: 13px; display: inline-block; width: 299px; height: 64px; background: url(../img/logo.png); text-decoration: none;}
+#head-nav{padding: 20px 0px;}
+#head-nav .nav.navbar-nav a{color: #8AC43F;}
+#wrap > .container:first-child{padding-top: 120px; padding-bottom: 50px;}
+#push, #footer{height: 120px;}
+#footer{background: #202020;}
+#footer .container{padding-top: 20px;}

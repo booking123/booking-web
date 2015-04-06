@@ -1,0 +1,105 @@
+.table.statistic-table th:first-child,
+.table.statistic-table td:first-child {
+	padding-left: 40px;
+	text-align: left;
+	max-width: 150px;
+	overflow: hidden;
+}
+.table-name {width: 25%}
+.table-city {width: 18%}
+.table-country {width: 18% }
+.table-bathrooms  {width:  14%}
+.table-status { width: 15%}
+.table.statistic-table .overview-keys i {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.table.statistic-table .tip {color: #000;}
+.table.statistic-table .overview-keys td,
+.table.statistic-table .overview-keys th {
+	height: 50px;
+	white-space: nowrap;
+	word-break: normal;
+}
+.table.statistic-table td {color: #a6a6a6;}
+.att-icon {background: #e14d4d;}
+.norm-icon {background: #ef9d37;}
+.ideal-icon {background: #438a20;}
+.status-bar {
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+.status-bar li {
+	display: inline;
+	padding: 5px 7px;
+	font-size: 10px;
+}
+.status-bar li:first-child {border-radius: 3px 0 0 3px;}
+.status-bar li:last-child {border-radius: 0 3px 3px 0;}
+.status-bar.success-bar li {
+	background: #438a20;
+	color: #fff;
+	border: 1px solid #438a20;
+}
+.status-bar.almost-success-bar li {
+	background: #ef9d37;
+	color: #fff;
+	border: 1px solid #ef9d37;
+}
+.status-bar.almost-success-bar li:last-child {
+	background: #fff;
+	color: #000;
+	border: 1px solid #e4e4e4;
+}
+.status-bar.half-success-bar li {
+	background: #e14d4d;
+	color: #fff;
+	border: 1px solid #e14d4d;
+}
+.status-bar.half-success-bar li:nth-child(3),
+.status-bar.half-success-bar li:last-child {
+	background: #fff;
+	color: #000;
+	border: 1px solid #e4e4e4;
+}
+.status-bar.half-success-bar li:nth-child(3) {border-width: 1px 0;}
+.status-bar.half-success-bar li:last-child {border-width: 1px 1px 1px 0;}
+.statistic-table .status-block.created-status {
+	border: 1px solid #438a20;
+	color: #438a20;
+}
+.statistic-table .status-block.initial-status {
+	border: 1px solid #ef9d37;
+	color: #ef9d37;
+}
+.statistic-table .status-block.suspended-status {
+	border: 1px solid #a6a6a6;
+	color: #a6a6a6;
+}
+.table.statistic-table td:nth-child(5) a,
+.table.statistic-table td:nth-child(4),
+.table.statistic-table td:nth-child(3),
+.table.statistic-table td:nth-child(2) {word-break: break-all;}
+.text-success {color: #438a20;}
+.text-warning {color: #ef9d37;}
+.text-danger {color: #e14d4d;}
+@media (max-width: 991px) {
+	.status-bar.success-bar li,
+	.status-bar.almost-success-bar li,
+	.status-bar.half-success-bar li {display: none;}
+	.status-bar.success-bar li:last-child,
+	.status-bar.almost-success-bar li:nth-child(3),
+	.status-bar.half-success-bar li:nth-child(2) {
+		display: inline-block;
+		border-radius: 3px;
+	}
+	.status-bar {
+		width: 44px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 768px) {.table.statistic-table .overview-keys td {white-space: normal;}}

@@ -1,0 +1,67 @@
+.vacation-types {color: #fff;}
+.vacation-type {
+	padding: 100px 80px 65px ;
+	height: 400px;
+	/*margin-bottom: 40px;*/
+}
+.main-black-heading {padding: 90px 0 115px;}
+.vacation-homes {background: url("../../img/frontend/newfrontend/read-more-head-types-1.jpg") no-repeat top center  / cover;}
+.RV-parks {background: url("../../img/frontend/newfrontend/rv_parks.jpg") no-repeat top center   / cover;}
+.campgrounds {background: url("../../img/frontend/newfrontend/read-more-head-types-3.jpg") no-repeat top center   / cover;}
+.corporate-housing {background: url("../../img/frontend/newfrontend/read-more-head-types-4.jpg") no-repeat top center   / cover;}
+.vacation-type-heading {
+	font-size: 24px;
+	margin-top: 20px;
+}
+.vacation-type-info {font-size: 18px;}
+.vacation-type-name {
+	font-size: 24px;
+	line-height: 25px;
+}
+.vacation-detail {
+	padding: 35px 0 30px;
+	border-bottom: 1px solid #aaa;
+}
+.vacation-details {
+	max-width: 1170px;
+	padding-top: 10px;
+}
+.vacation-type-details {
+	font-size: 18px;
+	line-height: 32px;
+}
+.vacation-detail-icon {
+	display: block;
+	margin: 0 auto 10px;
+}
+.faq-question {
+	font-size: 24px;
+	margin-bottom: 70px;
+}
+.faq-question-heading {height: 80px;}
+.faq-question-text {line-height: 32px;}
+.faq {margin-bottom: 140px;}
+.bottom-fag .faq-question-heading {height: 50px;}
+.bottom-fag {margin-bottom: 50px;}
+.vacation-homes-detail {
+	/*margin-top: 12px;*/
+}
+.rv-parks-detail .vacation-detail-icon {
+	padding-top: 5px;
+	margin-bottom: 20px;
+
+}
+.campgrounds-detail {padding: 47px 0 40px;}
+.corporate-housing-detail .vacation-detail-icon {margin: 0 auto 7px;}
+.corporate-housing-detail {padding: 38px 0 25px;}
+.corporate-housing-detail .vacation-type-details {margin-top: 10px;}
+@media (max-width: 1200px) {
+	.vacation-type {padding: 50px 80px 65px ;}
+}
+@media (max-width: 991px) {
+	.vacation-homes,
+	.RV-parks,
+	.campgrounds,
+	.corporate-housing {background-size: contain;}
+	.vacation-type {padding: 100px 80px 65px ;}
+}

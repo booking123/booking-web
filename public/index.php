@@ -32,6 +32,7 @@ define('SITE_NAME_VHC', 'vacationhomes.center');
 define('SITE_NAME_HVH', 'holidayvillas.house');
 //define('SITE_NAME_VHC', 'vh.work');
 
+//var_dump($config);
 define('API_URL', $config->application->apiUri);
 
 $di = new FactoryDefault();

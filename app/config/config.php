@@ -11,7 +11,7 @@ $config = (object) array('application' => (object) array(
   'apiUri' => 'localhost',
   'baseUri' => '/booking-web/public/',
   'siteName' => 'booking',
-  'translations' => '/../app/translations'
+  'translations' => __DIR__.'/../../app/translations'
 ));
 
 return $config;
